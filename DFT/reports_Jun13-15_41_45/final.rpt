@@ -1,0 +1,48 @@
+
+
+Working Directory = /home/Team14/cds_digital/ALU_Project/ScanChain
+QoS Summary for TOP
+========================================================================================
+Metric                  generic   
+========================================================================================
+Slack (ps):                7,215
+  R2R (ps):             no_value
+  I2R (ps):                7,215
+  R2O (ps):                8,845
+  I2O (ps):                8,703
+  CG  (ps):             no_value
+TNS (ps):                      0
+  R2R (ps):             no_value
+  I2R (ps):                    0
+  R2O (ps):                    0
+  I2O (ps):                    0
+  CG  (ps):             no_value
+Failing Paths:                 0
+Area:                        715
+Instances:                   195
+Utilization (%):            0.00
+Tot. Net Length (um):   no_value
+Avg. Net Length (um):   no_value
+Route Overflow H (%):   no_value
+Route Overflow V (%):   no_value
+Seq MBCI Coverage(%):       0.00
+Norm Cong Hotspot Area:
+  Max Cong(4stdcell):   no_value
+  Tot Cong(4stdcell):   no_value
+========================================================================================
+CPU  Runtime (h:m:s):   00:00:06
+Real Runtime (h:m:s):   00:00:16
+CPU  Elapsed (h:m:s):   00:00:12
+Real Elapsed (h:m:s):   00:00:18
+Memory (MB):              497.68
+========================================================================================
+
+========================================================================================
+Flow Settings:
+========================================================================================
+Total Runtime (h:m:s): 00:00:17
+Total Memory (MB):     497.68
+Executable Version:    16.13
+========================================================================================
+
+

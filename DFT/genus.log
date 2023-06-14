@@ -1,0 +1,1107 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 16.13-s036_1, built Tue Dec 20 2016
+Options: -legacy_ui 
+Date:    Tue Jun 13 15:41:27 2023
+Host:    CadenceServer3.localdomain (x86_64 w/Linux 2.6.32-642.el6.x86_64) (8cores*16cpus*Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz 20480KB) (24491252KB)
+OS:      CentOS release 6.8 (Final)
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+Finished loading tool scripts (8 seconds elapsed).
+
+WARNING: This version of the tool is 2366 days old.
+legacy_genus:/> source TOP1.tcl 
+Sourcing './TOP1.tcl' (Tue Jun 13 15:41:45 +0600 2023)...
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+cpu MHz		: 2397.150
+Hostname : CadenceServer3.localdomain
+  Setting attribute of root '/': 'information_level' = 7
+            Reading file '/home/Team14/cds_digital/ALU_Project/ScanChain/slow_vdd1v0_basicCells.lib'
+    Loading library slow_vdd1v0_basicCells.lib
+Info    : Missing a function attribute in the output pin definition. [LBR-518]
+        : Functionality is missing at pin 'Y' for the cell 'HOLDX1'. (File /home/Team14/cds_digital/ALU_Project/ScanChain/slow_vdd1v0_basicCells.lib, Line 67517)
+
+  Message Summary for Library slow_vdd1v0_basicCells.lib:
+  *******************************************************
+  Could not find an attribute in the library. [LBR-436]: 574
+  Missing a function attribute in the output pin definition. [LBR-518]: 1
+  *******************************************************
+ 
+            Reading file '/home/Team14/cds_digital/ALU_Project/ScanChain/fast_vdd1v0_basicCells.lib'
+    Loading library fast_vdd1v0_basicCells.lib
+Info    : Missing a function attribute in the output pin definition. [LBR-518]
+        : Functionality is missing at pin 'Y' for the cell 'HOLDX1'. (File /home/Team14/cds_digital/ALU_Project/ScanChain/fast_vdd1v0_basicCells.lib, Line 67517)
+
+  Message Summary for Library fast_vdd1v0_basicCells.lib:
+  *******************************************************
+  Could not find an attribute in the library. [LBR-436]: 574
+  Missing a function attribute in the output pin definition. [LBR-518]: 1
+  *******************************************************
+ 
+Warning : Libraries have inconsistent nominal operating conditions. [LBR-38]
+        : The libraries are 'slow_vdd1v0' and 'fast_vdd1v0'.
+        : This is a common source of delay calculation confusion and is strongly discouraged.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 0.900000, 125.000000) in library 'slow_vdd1v0_basicCells.lib'.
+        : The nominal operating condition represents either the nominal PVT values if specified in the library source, or the default PVT values (1.0, 1.0, 1.0).
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'ANTENNA' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Otherwise, the library cell will be marked as unusable and as timing model.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'ANTENNA' must have an output pin.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'HOLDX1/Y' has no function.
+        : If the remainder of this library cell's semantic checks are successful, it will be considered as a timing-model (because one of its outputs does not have a valid function.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP10' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP10' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP2' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP2' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP3' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP4' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP4' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP5' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP5' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP6' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP6' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP7' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP7' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP8' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP8' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP9' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DECAP9' must have an output pin.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.100000, 0.000000) in library 'fast_vdd1v0_basicCells.lib'.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'HOLDX1/Y' has no function.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ACHCONX2 and fast_vdd1v0/ACHCONX2).  Deleting the latter.
+        : Library cell names must be unique.  Any duplicates will be deleted.  Only the first (as determined by the order of libraries) will be retained.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDFHX1 and fast_vdd1v0/ADDFHX1).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDFHX2 and fast_vdd1v0/ADDFHX2).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDFHX4 and fast_vdd1v0/ADDFHX4).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDFHXL and fast_vdd1v0/ADDFHXL).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDFX1 and fast_vdd1v0/ADDFX1).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDFX2 and fast_vdd1v0/ADDFX2).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDFX4 and fast_vdd1v0/ADDFX4).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDFXL and fast_vdd1v0/ADDFXL).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDHX1 and fast_vdd1v0/ADDHX1).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDHX2 and fast_vdd1v0/ADDHX2).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDHX4 and fast_vdd1v0/ADDHX4).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/ADDHXL and fast_vdd1v0/ADDHXL).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/AND2X1 and fast_vdd1v0/AND2X1).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/AND2X2 and fast_vdd1v0/AND2X2).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/AND2X4 and fast_vdd1v0/AND2X4).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/AND2X6 and fast_vdd1v0/AND2X6).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/AND2X8 and fast_vdd1v0/AND2X8).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/AND2XL and fast_vdd1v0/AND2XL).  Deleting the latter.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (slow_vdd1v0/AND3X1 and fast_vdd1v0/AND3X1).  Deleting the latter.
+  Setting attribute of root '/': 'library' = slow_vdd1v0_basicCells.lib fast_vdd1v0_basicCells.lib
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_VV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_HH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_2x1_HV_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_2x1_HV_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_1x2_HV_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_1x2_HV_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_HH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_VV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_M_NH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_M_SH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_2x1_VH_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_2x1_VH_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_1x2_VH_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_1x2_VH_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_VV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_HH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_M_EV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_M_WV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_2x1_HV_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_2x1_HV_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_1x2_HV_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_1x2_HV_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_HH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_VV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_M_NH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_M_SH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_2x1_VH_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_2x1_VH_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_1x2_VH_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_1x2_VH_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_VV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_HH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_M_EV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_M_WV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_2x1_HV_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_2x1_HV_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_1x2_HV_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_1x2_HV_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_HH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_VV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_M_NH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_M_SH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_2x1_VH_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_2x1_VH_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_1x2_VH_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_1x2_VH_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_VV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_HH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_M_EV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_M_WV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_2x1_HV_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_2x1_HV_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_1x2_HV_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_1x2_HV_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_HH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_VV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_M_NH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_M_SH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_2x1_VH_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_2x1_VH_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_1x2_VH_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_1x2_VH_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M10_M9_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M10_M9_VV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M10_M9_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M10_M9_HH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M10_M9_2x1_HV_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M10_M9_2x1_HV_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M10_M9_1x2_HV_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M10_M9_1x2_HV_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_HH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_VV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_M_NH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_M_SH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_2x1_VH_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_2x1_VH_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_1x2_VH_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_1x2_VH_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_2x1_HH_E' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_2x1_HH_W' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_2x1_HH_C' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_1x2_VV_N' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_1x2_VV_S' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_1x2_VV_C' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M2_M1_2x2_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M3_M2_2x2_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M4_M3_2x2_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M5_M4_2x2_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M6_M5_2x2_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M7_M6_2x2_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M8_M7_2x2_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M9_M8_2x2_VH' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M10_M9_2x2_HV' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_VH_NEW' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_HH_NEW' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_HV_NEW' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_VV_NEW' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_M_NH_NEW' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_M_SH_NEW' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_1x2_VH_N_NEW' has no resistance value.
+Info    : Via with no resistance will have a value of '0.0' assigned. [PHYS-129]
+        : Via 'M11_M10_1x2_VH_S_NEW' has no resistance value.
+
+  According to lef_library, there are total 11 routing layers [ V(5) / H(6) ]
+
+Warning : None of the loaded LEF files have MACRO statements. [PHYS-20]
+        : Make sure the LEF file containing MACRO statement was not missed.
+        : The LEF file containing the cell specific information was not loaded. The LEF MACRO construct is used to set the physical data on cells in the timing library. It is likely that only the technology LEF file was loaded. Load all the associated LEF files.
+  Setting attribute of root '/': 'lef_library' = /home/Team14/cds_digital/ALU_Project/ScanChain/gsclib045_tech.lef
+FINISHED Library setup
+            Reading Verilog file 'ALU.v'
+            Reading Verilog file 'SHIFTER.v'
+            Reading Verilog file 'TOP.v'
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'CI' and 'S' in libcell 'ADDFHX1' is 'pos_unate', but unateness determined from function is 'non_unate'.
+        : The 'timing_sense' attribute will be respected.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'CI' and 'S' in libcell 'ADDFHX1' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ADDFHX1'.
+        : Setting the 'timing_sense' to non_unate.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'B' and 'S' in libcell 'ADDFHX1' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'B' and 'S' in libcell 'ADDFHX1' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDFHX1'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A' and 'S' in libcell 'ADDFHX1' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A' and 'S' in libcell 'ADDFHX1' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDFHX1'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'CI' and 'S' in libcell 'ADDFHX2' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'CI' and 'S' in libcell 'ADDFHX2' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ADDFHX2'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'B' and 'S' in libcell 'ADDFHX2' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'B' and 'S' in libcell 'ADDFHX2' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDFHX2'.
+Info    : Setting the maximum print count of this message to 10 if information_level is less than 9. [LBR-161]
+        : To print all the warning messages, set the information_level to 9.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDFHX2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ADDFHX4'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDFHX4'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDFHX4'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ADDFHXL'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDFHXL'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDFHXL'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ADDFX1'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDFX1'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDFX1'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ADDFX2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDFX2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDFX2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ADDFX4'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDFX4'.
+  Libraries have 324 usable logic and 128 usable sequential lib-cells.
+Info    : Elaborating Design. [ELAB-1]
+        : Elaborating top-level block 'TOP' from file 'TOP.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'ALU' from file 'ALU.v'.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 12.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 21.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'F' [4] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 26.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 28.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 30.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'F' [4] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 35.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 37.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 39.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'F' [4] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 44.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 46.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 48.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'F' [4] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 53.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 55.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 57.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 64.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 66.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 73.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 75.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 81.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 87.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 93.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 99.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 105.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'Cout' [1] doesn't match the width of right hand side [32] in assignment in file 'ALU.v' on line 109.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'SHIFTER' from file 'SHIFTER.v'.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'O' [4] doesn't match the width of right hand side [32] in assignment in file 'SHIFTER.v' on line 12.
+Info    : Unused module inout port. [CDFG-501]
+        : Inout port 'scan_in_1' is not used in module 'TOP' in file 'TOP.v' on line 23.
+        : The value of the inout port is not used within the design.
+Info    : Unused module inout port. [CDFG-501]
+        : Inout port 'scan_out_1' is not used in module 'TOP' in file 'TOP.v' on line 24.
+Info    : Unused module inout port. [CDFG-501]
+        : Inout port 'scan_enable' is not used in module 'TOP' in file 'TOP.v' on line 26.
+Info    : Done Elaborating Design. [ELAB-3]
+        : Done elaborating 'TOP'.
+Info: Checking for source rtl...
+Info: Check completed for source rtl...
+        Computing net loads.
+Runtime & Memory after 'read_hdl'
+stamp 'Elaboration' being created for table 'default'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:06(00:00:00) |  00:00:00(00:00:00) |   0.0(  0.0) | 03:41:33 PM(Jun13) | 410.56 MB | init
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:10(00:00:14) |  00:00:04(00:00:14) | 100.0(100.0) | 03:41:47 PM(Jun13) | 493.67 MB | Elaboration
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: default, time_info v1.55)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+  Checking the design.
+
+ 	 Check Design Report
+	 -------------------- 
+
+  Unresolved References & Empty Modules
+  ------------------------------------- 
+No unresolved references in design 'TOP'
+
+No empty modules in design 'TOP'
+
+ Undriven Port(s)/Pin(s)
+ ------------------------
+No undriven combinational pin in 'TOP'
+
+No undriven sequential pin in 'TOP'
+
+No undriven hierarchical pin in 'TOP'
+
+The following port(s) in design 'TOP' are undriven
+/designs/TOP/ports_out/scan_enable
+/designs/TOP/ports_out/scan_in_1
+/designs/TOP/ports_out/scan_out_1
+Total number of undriven port(s) in design 'TOP' : 3
+
+  Done Checking the design.
+  Setting attribute of instance 'alu_inst': 'ungroup_ok' = false
+  Setting attribute of instance 'shifter_inst': 'ungroup_ok' = false
+Statistics for commands executed by read_sdc:
+ "create_clock"             - successful      1 , failed      0 (runtime  0.00)
+ "get_clocks"               - successful      7 , failed      0 (runtime  0.00)
+ "get_ports"                - successful      3 , failed      0 (runtime  0.00)
+ "set_input_delay"          - successful      5 , failed      0 (runtime  0.00)
+ "set_multicycle_path"      - successful      2 , failed      0 (runtime  0.00)
+ "set_output_delay"         - successful      2 , failed      0 (runtime  0.00)
+ "set_units"                - successful      1 , failed      0 (runtime  0.00)
+Total runtime 0
+The number of exceptions is 3
+Creating directory logs_Jun13-15:41:45
+Creating directory outputs_Jun13-15:41:45
+Creating directory reports_Jun13-15:41:45
+        Tracing clock networks.
+        Levelizing the circuit.
+        Computing delays.
+        Computing arrivals and requireds.
+============================================================
+  Generated by:           Genus(TM) Synthesis Solution 16.13-s036_1
+  Generated on:           Jun 13 2023  03:41:47 pm
+  Module:                 TOP
+  Technology libraries:   slow_vdd1v0 1.0
+                          fast_vdd1v0 1.0
+  Operating conditions:   PVT_0P9V_125C 
+  Interconnect mode:      global
+  Area mode:              timing library
+============================================================
+
+-------------------------------------------------------------------------------
+Timing exceptions with no effect
+
+The following timing exceptions are not currently affecting timing in the       
+design.  Either no paths in the design satisfy the exception's path             
+specification, or all paths that satisfy the path specification also satisfy an 
+exception with a higher priority.  You can improve runtime and memory usage by  
+removing these exceptions if they are not truly needed.  To see if there is a   
+path in the design that satisfies the path specification for an exception, or   
+to see what other exception is overriding an exception because of priority, use 
+the command:                                                                    
+  report timing -paths [eval [::legacy::get_attribute paths <exception>]]
+
+/designs/TOP/timing/exceptions/multi_cycles/TOP.sdc_line_13
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Inputs without clocked external delays
+
+The following primary inputs have no clocked external delays.  As a result the  
+timing paths leading from the ports have no timing constraints derived from     
+clock waveforms.  The'external_delay' command is used to create new external    
+delays.                                                                         
+
+/designs/TOP/ports_in/reset
+/designs/TOP/ports_in/scan_enable
+/designs/TOP/ports_in/scan_in_1
+  ... 1 other warning in this category.
+ Use the -verbose option for more details.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Outputs without clocked external delays
+
+The following primary outputs have no clocked external delays.  As a result the 
+timing paths leading to the ports have no timing constraints derived from clock 
+waveforms.  The'external_delay' command is used to create new external delays.  
+
+/designs/TOP/ports_out/scan_enable
+/designs/TOP/ports_out/scan_in_1
+/designs/TOP/ports_out/scan_out_1
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Inputs without external driver/transition
+
+The following primary inputs have no external driver or input transition set.   
+As a result the transition on the ports will be assumed as zero. The            
+'external_driver' attribute is used to add and external driver or the           
+'fixed_slew' attribute to add an external transition.                           
+
+/designs/TOP/ports_in/A[0]
+/designs/TOP/ports_in/A[1]
+/designs/TOP/ports_in/A[2]
+  ... 15 other warnings in this category.
+ Use the -verbose option for more details.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Outputs without external load
+
+The following primary outputs have no external load set. As a result the load   
+on the ports will be assumed as zero. The 'external_pin_cap' attribute is used  
+to add and external pin cap.                                                    
+
+/designs/TOP/ports_out/Cout
+/designs/TOP/ports_out/O[0]
+/designs/TOP/ports_out/O[1]
+  ... 5 other warnings in this category.
+ Use the -verbose option for more details.
+-------------------------------------------------------------------------------
+
+
+Lint summary
+ Unconnected/logic driven clocks                                  0
+ Sequential data pins driven by a clock signal                    0
+ Sequential clock pins without clock waveform                     0
+ Sequential clock pins with multiple clock waveforms              0
+ Generated clocks without clock waveform                          0
+ Generated clocks with incompatible options                       0
+ Generated clocks with multi-master clock                         0
+ Paths constrained with different clocks                          0
+ Loop-breaking cells for combinational feedback                   0
+ Nets with multiple drivers                                       0
+ Timing exceptions with no effect                                 1
+ Suspicious multi_cycle exceptions                                0
+ Pins/ports with conflicting case constants                       0
+ Inputs without clocked external delays                           4
+ Outputs without clocked external delays                          3
+ Inputs without external driver/transition                       18
+ Outputs without external load                                    8
+ Exceptions with invalid timing start-/endpoints                  0
+
+                                                  Total:         34
+
+        Computing arrivals and requireds.
+Warning : Possible timing problems have been detected in this design. [TIM-11]
+        : The design is 'TOP'.
+        : Use 'report timing -lint' for more information.
+Warning : Possible timing problems have been detected in this design. [TIM-11]
+        : The design is 'TOP'.
+Warning : Possible timing problems have been detected in this design. [TIM-11]
+        : The design is 'TOP'.
+Warning : Possible timing problems have been detected in this design. [TIM-11]
+        : The design is 'TOP'.
+Warning : Possible timing problems have been detected in this design. [TIM-11]
+        : The design is 'TOP'.
+Warning : Possible timing problems have been detected in this design. [TIM-11]
+        : The design is 'TOP'.
+#############	HELLO	##################
+  Setting attribute of root '/': 'dft_scan_style' = muxed_scan
+  Setting attribute of root '/': 'dft_prefix' = DFT_
+  Setting attribute of root '/': 'dft_identify_top_level_test_clocks' = true
+  Setting attribute of root '/': 'dft_identify_test_signals' = true
+  Setting attribute of root '/': 'dft_identify_internal_test_clocks' = false
+  Setting attribute of root '/': 'use_scan_seqs_for_non_dft' = false
+  Setting attribute of design 'TOP': 'dft_scan_map_mode' = tdrc_pass
+  Setting attribute of design 'TOP': 'dft_connect_shift_enable_during_mapping' = tie_off
+  Setting attribute of design 'TOP': 'dft_connect_scan_data_pins_during_mapping' = loopback
+  Setting attribute of design 'TOP': 'dft_scan_output_preference' = auto
+  Setting attribute of design 'TOP': 'dft_lockup_element_type' = preferred_level_sensitive
+Info    : Added DFT object. [DFT-100]
+        : Added test clock domain 'clk'.
+Info    : Added DFT object. [DFT-100]
+        : Added test clock 'clk'.
+  Setting attribute of design 'TOP': 'dft_mv_clock_invalidates_clock_domain' = false
+Warning : Port is not connected to a pad. [DFT-295]
+        : Bidirectional port 'scan_enable' is not connected to a pad cell.
+        : A bidirectional port on which a test signal, test clock or shift enable signal is defined should be connected to a pad instance and the libcell should have 'is_pad' and 'pad_cell' attributes set.
+Info    : Added DFT object. [DFT-100]
+        : Added shift enable signal 'scan_enable'.
+  Setting attribute of design 'TOP': 'preserve' = false
+FINISHED DFT Setup
+  Checking DFT rules for 'TOP' module under 'muxed_scan' style
+
+  Checking DFT rules for clock pins
+      Traced or defined DFT clock: clk in domain: clk at pin clk
+  Checking DFT rules for async. pins
+Info    : Auto detection of Async control signal. [DFT-303]
+        : Setting PI async signal 'reset' to level '0' in test mode
+
+Info    : Added DFT object. [DFT-100]
+        : Added test mode signal 'reset'.
+  Checking DFT rules for shift registers.
+Rerunning check_dft_rules due to definition of new test signals
+  Checking DFT rules for clock pins
+      Traced or defined DFT clock: clk in domain: clk at pin clk
+  Checking DFT rules for async. pins
+  Checking DFT rules for shift registers.
+Detected 0 DFT rule violation(s)
+    ... see the log file for more details
+  Number of user specified non-Scan registers:   0
+      Number of registers that fail DFT rules:   0
+      Number of registers that pass DFT rules:   5
+  Percentage of total registers that are scannable: 100%
+Reporting registers that pass DFT rules
+  alu_inst/Cout_reg 	PASS; Test clock: clk/rise; 
+  alu_inst/F_reg[0] 	PASS; Test clock: clk/rise; 
+  alu_inst/F_reg[1] 	PASS; Test clock: clk/rise; 
+  alu_inst/F_reg[2] 	PASS; Test clock: clk/rise; 
+  alu_inst/F_reg[3] 	PASS; Test clock: clk/rise; 
+Reporting registers that fail DFT rules
+Reporting registers that are preserved or marked dont-scan
+Reporting registers that are marked Abstract Segment Dont Scan
+Reporting registers that are part of shift register segments
+Reporting registers that are identified as lockup elements
+Reporting registers that are level-sensitive elements
+Reporting misc. non-scan registers
+Summary: 
+Total registers that pass DFT rules: 5
+Total registers that fail DFT rules: 0
+Total registers that are marked preserved or dont-scan: 0
+Total registers that are marked Abstract Segment dont-scan: 0
+Total registers that are part of shift register segments: 0
+Total registers that are lockup elements: 0
+Total registers that are level-sensitive: 0
+Total registers that are misc. non-scan: 0
+
+  Checking the design.
+
+ 	 Check Design Report
+	 -------------------- 
+
+ Multidriven Port(s)/Pin(s)
+--------------------------
+
+No multidriven combinational pin in 'TOP'
+
+No multidriven sequential pin in 'TOP'
+
+No multidriven hierarchical pin in 'TOP'
+
+No multidriven ports in 'TOP'
+
+No multidriven unloaded nets in 'TOP'
+
+  Done Checking the design.
+FINISHED DFT Rule Checker
+  Setting attribute of root '/': 'syn_generic_effort' = high
+Info    : Deleting instances not driving any primary outputs. [GLO-34]
+        : Deleting 2 hierarchical instances. 
+Following instances are deleted as they do not drive any primary output:
+'alu_inst/mux_Cout_9_9', 'alu_inst/mux_F_9_9'.
+        : Optimizations such as constant propagation or redundancy removal could change the connections so a hierarchical instance does not drive any primary outputs anymore. To see the list of deleted hierarchical instances, set the 'information_level' attribute to 2 or above. If message is truncated set message attribute 'truncate' to false to see the complete list. To prevent this optimization, set the 'delete_unloaded_insts' root/subdesign attribute to 'false' or 'preserve' instance attribute to 'true'.
+Current PLE settings:
+
+Aspect ratio        : 1.00
+Shrink factor       : 1.00
+Scale of res/length : 1.00
+Scale of cap/length : 1.00
+Net derating factor : 1.00
+Thermal factor      : 1.00
+Via Resistance      : 0.00 ohm (from default)
+Site size           : 1.91 um (from lef [tech])
+
+                                   Capacitance  
+  Layer                             / Length         Data source:
+Name        Direction Utilization  (pF/micron)       lef_library
+------------------------------------------------
+Metal1          H         1.00        0.000412  
+Metal2          V         1.00        0.000416  
+Metal3          H         1.00        0.000416  
+Metal4          V         1.00        0.000416  
+Metal5          H         1.00        0.000416  
+Metal6          V         1.00        0.000416  
+Metal7          H         1.00        0.000416  
+Metal8          V         1.00        0.000416  
+Metal9          H         1.00        0.000416  
+Metal10         V         1.00        0.000444  
+Metal11         H         1.00        0.000444  
+
+                                    Resistance   
+  Layer                              / Length         Data source:
+Name        Direction Utilization  (ohm/micron)       lef_library
+-------------------------------------------------
+Metal1          H         1.00         1.226667  
+Metal2          V         1.00         0.755000  
+Metal3          H         1.00         0.755000  
+Metal4          V         1.00         0.755000  
+Metal5          H         1.00         0.755000  
+Metal6          V         1.00         0.755000  
+Metal7          H         1.00         0.755000  
+Metal8          V         1.00         0.267500  
+Metal9          H         1.00         0.267500  
+Metal10         V         1.00         0.097273  
+Metal11         H         1.00         0.095455  
+
+                                        Area     
+  Layer                               / Length        Data source:
+Name        Direction Utilization     (micron)        lef_library
+-------------------------------------------------
+Metal1          H         1.00         0.060000  
+Metal2          V         1.00         0.080000  
+Metal3          H         1.00         0.080000  
+Metal4          V         1.00         0.080000  
+Metal5          H         1.00         0.080000  
+Metal6          V         1.00         0.080000  
+Metal7          H         1.00         0.080000  
+Metal8          V         1.00         0.080000  
+Metal9          H         1.00         0.080000  
+Metal10         V         1.00         0.220000  
+Metal11         H         1.00         0.220000  
+
+Info    : Synthesizing. [SYNTH-1]
+        : Synthesizing 'TOP' to generic gates using 'high' effort.
+        Computing net loads.
+Info    : Partition Based Synthesis execution skipped. [PHYS-752]
+        : Design size is less than the partition size '100000' for distributed generic optimization to kick in.
+Current PLE settings:
+
+Aspect ratio        : 1.00
+Shrink factor       : 1.00
+Scale of res/length : 1.00
+Scale of cap/length : 1.00
+Net derating factor : 1.00
+Thermal factor      : 1.00
+Via Resistance      : 0.00 ohm (from default)
+Site size           : 1.91 um (from lef [tech])
+
+                                   Capacitance  
+  Layer                             / Length         Data source:
+Name        Direction Utilization  (pF/micron)       lef_library
+------------------------------------------------
+Metal1          H         1.00        0.000412  
+Metal2          V         1.00        0.000416  
+Metal3          H         1.00        0.000416  
+Metal4          V         1.00        0.000416  
+Metal5          H         1.00        0.000416  
+Metal6          V         1.00        0.000416  
+Metal7          H         1.00        0.000416  
+Metal8          V         1.00        0.000416  
+Metal9          H         1.00        0.000416  
+Metal10         V         1.00        0.000444  
+Metal11         H         1.00        0.000444  
+
+                                    Resistance   
+  Layer                              / Length         Data source:
+Name        Direction Utilization  (ohm/micron)       lef_library
+-------------------------------------------------
+Metal1          H         1.00         1.226667  
+Metal2          V         1.00         0.755000  
+Metal3          H         1.00         0.755000  
+Metal4          V         1.00         0.755000  
+Metal5          H         1.00         0.755000  
+Metal6          V         1.00         0.755000  
+Metal7          H         1.00         0.755000  
+Metal8          V         1.00         0.267500  
+Metal9          H         1.00         0.267500  
+Metal10         V         1.00         0.097273  
+Metal11         H         1.00         0.095455  
+
+                                        Area     
+  Layer                               / Length        Data source:
+Name        Direction Utilization     (micron)        lef_library
+-------------------------------------------------
+Metal1          H         1.00         0.060000  
+Metal2          V         1.00         0.080000  
+Metal3          H         1.00         0.080000  
+Metal4          V         1.00         0.080000  
+Metal5          H         1.00         0.080000  
+Metal6          V         1.00         0.080000  
+Metal7          H         1.00         0.080000  
+Metal8          V         1.00         0.080000  
+Metal9          H         1.00         0.080000  
+Metal10         V         1.00         0.220000  
+Metal11         H         1.00         0.220000  
+
+Info    : Optimizing RTL. [RTLOPT-1]
+        : Optimizing RTL in 'TOP' using 'high' effort.
+      Timing gt_leq_unsigned_72...
+      Timing geq_unsigned_77...
+      Timing gt_leq_unsigned_92...
+      Timing geq_unsigned_104...
+      Timing gt_leq_unsigned_122...
+Info    : Accepted resource sharing opportunity. [RTLOPT-30]
+        : Merged the following sets of instances in subdesign 'ALU':
+	  (gte_72_13, gt_36_10, gte_45_15, gte_63_16)
+
+      Timing addsub_unsigned_140...
+      Timing addsub_unsigned_154...
+Info    : Accepted resource sharing opportunity. [RTLOPT-30]
+        : Merged the following sets of instances in subdesign 'ALU':
+	  (add_53_12, add_44_12)
+	  (sub_26_10, sub_35_12)
+
+Info    : Grouping carry-save logic. [RTLOPT-19]
+        : Grouping carry-save logic in 'ALU_csa_cluster_14' using 'medium' effort and 'generic' timing models.
+Info    : Accepted carry-save configuration. [RTLOPT-20]
+        : Accepted configuration 1 of 1 in module 'ALU_csa_cluster_14'.
+                  Configuration number:      1
+                  Effort level:              medium
+                  Allow CSA over Muxes:      No
+                  Allow CSA over Inverter:   No
+                  Allow Complex CSA:         No
+                  Allow CSA over Truncation: No
+                  Bridge size threshold:     6
+                  Connection size threshold: 4
+Info    : Done grouping carry-save logic. [RTLOPT-23]
+        : Used configuration 1, resulting in 1 carry-save group in module 'ALU_csa_cluster_14'.
+                  Configuration number:      1
+                  Effort level:              medium
+                  Allow CSA over Muxes:      No
+                  Allow CSA over Inverter:   No
+                  Allow Complex CSA:         No
+                  Allow CSA over Truncation: No
+                  Bridge size threshold:     6
+                  Connection size threshold: 4
+Info    : Grouping carry-save logic. [RTLOPT-19]
+        : Grouping carry-save logic in 'ALU_csa_cluster_15' using 'medium' effort and 'generic' timing models.
+Info    : Accepted carry-save configuration. [RTLOPT-20]
+        : Accepted configuration 1 of 1 in module 'ALU_csa_cluster_15'.
+                  Configuration number:      1
+                  Effort level:              medium
+                  Allow CSA over Muxes:      No
+                  Allow CSA over Inverter:   No
+                  Allow Complex CSA:         No
+                  Allow CSA over Truncation: No
+                  Bridge size threshold:     6
+                  Connection size threshold: 4
+Info    : Done grouping carry-save logic. [RTLOPT-23]
+        : Used configuration 1, resulting in 1 carry-save group in module 'ALU_csa_cluster_15'.
+                  Configuration number:      1
+                  Effort level:              medium
+                  Allow CSA over Muxes:      No
+                  Allow CSA over Inverter:   No
+                  Allow Complex CSA:         No
+                  Allow CSA over Truncation: No
+                  Bridge size threshold:     6
+                  Connection size threshold: 4
+      Timing gt_leq_unsigned_435...
+      Timing add_unsigned_436...
+Info    : Downsized instance. [RTLOPT-16]
+        : Changed instance 'add_45_12' in 'ALU' to 'slow' speed architecture.
+      Timing sub_unsigned_437...
+      Timing increment_unsigned_438...
+      Timing decrement_unsigned_439...
+Info    : Done optimizing RTL. [RTLOPT-2]
+        : Done optimizing RTL in 'TOP'.
+      Removing temporary intermediate hierarchies under TOP
+              Optimizing muxes in design 'ALU'.
+              Optimizing muxes in design 'SHIFTER'.
+        Computing net loads.
+  Setting attribute of root '/': 'pbs_stage_start_elapsed_time' = 29
+  Setting attribute of root '/': 'pbs_stage_start_st_time' = 12
+Info    : Done synthesizing. [SYNTH-2]
+        : Done synthesizing 'TOP' to generic gates.
+        Computing net loads.
+Runtime & Memory after 'syn_generic'
+stamp 'GENERIC' being created for table 'default'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:06(00:00:00) |  00:00:00(00:00:00) |   0.0(  0.0) | 03:41:33 PM(Jun13) | 410.56 MB | init
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:10(00:00:14) |  00:00:04(00:00:14) |  66.7( 87.5) | 03:41:47 PM(Jun13) | 493.67 MB | Elaboration
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:12(00:00:16) |  00:00:02(00:00:02) |  33.3( 12.5) | 03:41:49 PM(Jun13) | 497.68 MB | GENERIC
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: default, time_info v1.55)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+Warning : Possible timing problems have been detected in this design. [TIM-11]
+        : The design is 'TOP'.
+Warning : Did not find power models for RTL power analysis. [PA-17]
+        : Design /designs/TOP has no power models available.
+        : The RTL power analysis results are more accurate when detailed power models are used. Use command 'build_rtl_power_models' to build detailed power models.
+        Computing arrivals and requireds.
+Finished exporting design database to file 'reports_Jun13-15:41:45/generic/TOP.db' for 'TOP' (command execution time mm:ss cpu = 00:00, real = 00:00).
+Finished generating snapshot at stage generic (command execution time mm:ss cpu = 00:00, real = 00:01).
+Beginning report datapath command
+Warning : The filename, column and line number information will not be available in the report. [RPT_DP-100]
+        : The attribute for getting HDL filename and line number is not set.
+        : You must set the 'hdl_track_filename_row_col' attribute to 'true' (before elaborate) to enable filename, column, and line number tracking in the datapath report.
+
+
+Working Directory = /home/Team14/cds_digital/ALU_Project/ScanChain
+QoS Summary for TOP
+========================================================================================
+Metric                  generic   
+========================================================================================
+Slack (ps):                7,215
+  R2R (ps):             no_value
+  I2R (ps):                7,215
+  R2O (ps):                8,845
+  I2O (ps):                8,703
+  CG  (ps):             no_value
+TNS (ps):                      0
+  R2R (ps):             no_value
+  I2R (ps):                    0
+  R2O (ps):                    0
+  I2O (ps):                    0
+  CG  (ps):             no_value
+Failing Paths:                 0
+Area:                        715
+Instances:                   195
+Utilization (%):            0.00
+Tot. Net Length (um):   no_value
+Avg. Net Length (um):   no_value
+Route Overflow H (%):   no_value
+Route Overflow V (%):   no_value
+Seq MBCI Coverage(%):       0.00
+Norm Cong Hotspot Area:
+  Max Cong(4stdcell):   no_value
+  Tot Cong(4stdcell):   no_value
+========================================================================================
+CPU  Runtime (h:m:s):   00:00:06
+Real Runtime (h:m:s):   00:00:16
+CPU  Elapsed (h:m:s):   00:00:12
+Real Elapsed (h:m:s):   00:00:18
+Memory (MB):              497.68
+========================================================================================
+
+========================================================================================
+Flow Settings:
+========================================================================================
+Total Runtime (h:m:s): 00:00:17
+Total Memory (MB):     497.68
+Executable Version:    16.13
+========================================================================================
+
+
+
+
+can't read "MAP_OPT_EFF": no such variable
+legacy_genus:/> exit
+Normal exit.

@@ -1,0 +1,48 @@
+
+
+Working Directory = /home/Team14/cds_digital/ALU_Project/ScanChain
+QoS Summary for TOP
+========================================================================================
+Metric                  generic    map        syn_opt    final     
+========================================================================================
+Slack (ps):                8,927      8,535      8,535      8,535
+  R2R (ps):             no_value   no_value      9,853      9,853
+  I2R (ps):                9,090      8,535      8,535      8,535
+  R2O (ps):                9,336      9,281      9,281      9,281
+  I2O (ps):                8,927      8,770      8,770      8,770
+  CG  (ps):             no_value   no_value   no_value   no_value
+TNS (ps):                      0          0          0          0
+  R2R (ps):             no_value   no_value          0          0
+  I2R (ps):                    0          0          0          0
+  R2O (ps):                    0          0          0          0
+  I2O (ps):                    0          0          0          0
+  CG  (ps):             no_value   no_value   no_value   no_value
+Failing Paths:                 0          0          0          0
+Area:                        812        500        503        503
+Instances:                   257        151        151        151
+Utilization (%):            0.00       0.00       0.00       0.00
+Tot. Net Length (um):   no_value   no_value   no_value   no_value
+Avg. Net Length (um):   no_value   no_value   no_value   no_value
+Route Overflow H (%):   no_value   no_value   no_value   no_value
+Route Overflow V (%):   no_value   no_value   no_value   no_value
+Seq MBCI Coverage(%):       0.00       0.00       0.00       0.00
+Norm Cong Hotspot Area:
+  Max Cong(4stdcell):   no_value   no_value   no_value   no_value
+  Tot Cong(4stdcell):   no_value   no_value   no_value   no_value
+========================================================================================
+CPU  Runtime (h:m:s):   00:00:04   00:00:02   00:00:00   00:00:00
+Real Runtime (h:m:s):   00:00:13   00:00:02   00:00:00   00:00:01
+CPU  Elapsed (h:m:s):   00:00:10   00:00:12   00:00:12   00:00:12
+Real Elapsed (h:m:s):   00:00:14   00:00:16   00:00:16   00:00:17
+Memory (MB):              483.66     525.65     525.65     525.65
+========================================================================================
+
+========================================================================================
+Flow Settings:
+========================================================================================
+Total Runtime (h:m:s): 00:00:16
+Total Memory (MB):     525.65
+Executable Version:    16.13
+========================================================================================
+
+
