@@ -1,0 +1,75 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Tue Jun 13 16:43:00 2023                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v16.10-p004_1 (64bit) 05/12/2016 14:48 (Linux 2.6.18-194.el5)
+#@(#)CDS: NanoRoute 16.10-p004_1 NR160506-1445/16_10-UB (database version 2.30, 325.6.1) {superthreading v1.28}
+#@(#)CDS: AAE 16.10-p003 (64bit) 05/12/2016 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 16.10-p002_1 () May  3 2016 03:35:25 ( )
+#@(#)CDS: SYNTECH 16.10-d040_1 () Apr 22 2016 00:57:16 ( )
+#@(#)CDS: CPE v16.10-p007
+#@(#)CDS: IQRC/TQRC 15.2.1-s073 (64bit) Tue May  3 11:39:50 PDT 2016 (Linux 2.6.18-194.el5)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+getVersion
+getDrawView
+loadWorkspace -name Physical
+win
+setMultiCpuUsage -localCpu 8
+setDesignMode -process 45
+set init_pwr_net VDD
+set init_gnd_net VSS
+set init_lef_file {/home/cad/VLSI2Lab/Digital/library/gsclib045_tech.lef /home/cad/VLSI2Lab/Digital/library/gsclib045_macro.lef}
+set init_verilog TOP_m.v
+set init_mmmc_file TOP.view
+init_design
+deleteEmptyModule
+checkUnique
+globalNetConnect VDD -type pgpin -pin VDD -inst *
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VSS -type pgpin -pin VSS -inst *
+globalNetConnect VSS -type tielo -inst *
+set_interactive_constraint_modes [all_constraint_modes -active]
+setDontUse BUF* false
+setDontUse INV* false
+set_dont_touch [get_lib_cells "*/BUF* */INV* " ] false
+set enc_save_portable_design 1
+saveDesign dbs/import.enc -compress
+saveNetlist ./generated_netlist/import.v
+restoreDesign /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat TOP
+freeDesign
+setMultiCpuUsage -localCpu 8
+setDesignMode -process 45
+set init_pwr_net VDD
+set init_gnd_net VSS
+set init_lef_file {/home/cad/VLSI2Lab/Digital/library/gsclib045_tech.lef /home/cad/VLSI2Lab/Digital/library/gsclib045_macro.lef}
+set init_verilog TOP_m.v
+set init_mmmc_file TOP.view
+init_design
+deleteEmptyModule
+checkUnique
+globalNetConnect VDD -type pgpin -pin VDD -inst *
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VSS -type pgpin -pin VSS -inst *
+globalNetConnect VSS -type tielo -inst *
+set_interactive_constraint_modes [all_constraint_modes -active]
+setDontUse BUF* false
+setDontUse INV* false
+set_dont_touch [get_lib_cells "*/BUF* */INV* " ] false
+set enc_save_portable_design 1
+saveDesign dbs/import.enc -compress
+saveNetlist ./generated_netlist/import.v
+floorPlan -d {26 26 3 3 3 3}
+loadIoFile TOP_IO.io
+addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 0.8 bottom 0.8 left 0.8 right 0.8} -spacing {top 0.5 bottom 0.5 left 0.5 right 0.5} -offset {top 0 bottom 0 left 0 right 0} -center 1 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+addStripe -nets {VDD VSS} -layer Metal9 -direction horizontal -width 0.4 -spacing 0.3 -number_of_sets 5 -start_from bottom -start_offset 0.5 -stop_offset 0.5 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal11 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal11 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 0.4 -spacing 0.3 -number_of_sets 5 -start_from left -start_offset 0.5 -stop_offset 0.5 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal11 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal11 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { Metal1(1) Metal8(8) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { Metal1(1) Metal8(8) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { Metal1(1) Metal8(8) }
+saveDesign dbs/floorpower.enc -compress
+fit
+saveDesign powerPlan.en

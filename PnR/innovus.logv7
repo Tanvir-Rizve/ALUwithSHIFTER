@@ -1,0 +1,339 @@
+[06/15 08:33:31      0] 
+[06/15 08:33:31      0] Cadence Innovus(TM) Implementation System.
+[06/15 08:33:31      0] Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+[06/15 08:33:31      0] 
+[06/15 08:33:31      0] Version:	v16.10-p004_1, built Thu May 12 14:48:49 PDT 2016
+[06/15 08:33:31      0] Options:	
+[06/15 08:33:31      0] Date:		Thu Jun 15 08:33:31 2023
+[06/15 08:33:31      0] Host:		CadenceServer3.localdomain (x86_64 w/Linux 2.6.32-642.el6.x86_64) (8cores*16cpus*Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz 20480KB)
+[06/15 08:33:31      0] OS:		CentOS release 6.8 (Final)
+[06/15 08:33:31      0] 
+[06/15 08:33:31      0] License:
+[06/15 08:33:31      0] 		invs	Innovus Implementation System	16.1	checkout succeeded
+[06/15 08:33:31      0] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[06/15 08:33:51      7] @(#)CDS: Innovus v16.10-p004_1 (64bit) 05/12/2016 14:48 (Linux 2.6.18-194.el5)
+[06/15 08:33:51      7] @(#)CDS: NanoRoute 16.10-p004_1 NR160506-1445/16_10-UB (database version 2.30, 325.6.1) {superthreading v1.28}
+[06/15 08:33:51      7] @(#)CDS: AAE 16.10-p003 (64bit) 05/12/2016 (Linux 2.6.18-194.el5)
+[06/15 08:33:51      7] @(#)CDS: CTE 16.10-p002_1 () May  3 2016 03:35:25 ( )
+[06/15 08:33:51      7] @(#)CDS: SYNTECH 16.10-d040_1 () Apr 22 2016 00:57:16 ( )
+[06/15 08:33:51      7] @(#)CDS: CPE v16.10-p007
+[06/15 08:33:51      7] @(#)CDS: IQRC/TQRC 15.2.1-s073 (64bit) Tue May  3 11:39:50 PDT 2016 (Linux 2.6.18-194.el5)
+[06/15 08:33:51      7] @(#)CDS: OA 22.50-p043 Tue Feb  9 16:29:38 2016
+[06/15 08:33:51      7] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[06/15 08:33:51      7] @(#)CDS: RCDB 11.8
+[06/15 08:33:51      7] --- Running on CadenceServer3.localdomain (x86_64 w/Linux 2.6.32-642.el6.x86_64) (8cores*16cpus*Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz 20480KB) ---
+[06/15 08:33:51      7] Create and set the environment variable TMPDIR to /tmp/innovus_temp_104533_CadenceServer3.localdomain_Team14_eTbU6o.
+
+[06/15 08:33:52      7] 
+[06/15 08:33:52      7] **INFO:  MMMC transition support version v31-84 
+[06/15 08:33:52      7] 
+[06/15 08:33:52      7] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[06/15 08:33:52      7] <CMD> suppressMessage ENCEXT-2799
+[06/15 08:33:52      7] <CMD> getVersion
+[06/15 08:33:52      7] <CMD> getVersion
+[06/15 08:33:52      7] <CMD> getDrawView
+[06/15 08:33:52      7] <CMD> loadWorkspace -name Physical
+[06/15 08:33:53      7] <CMD> win
+[06/15 08:39:01     12] <CMD> restoreDesign /home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat TOP
+[06/15 08:39:01     12] Set Default Input Pin Transition as 0.1 ps.
+[06/15 08:39:01     12] **WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+[06/15 08:39:01     12] #- Begin Load MMMC data ... (date=06/15 08:39:01, mem=491.1M)
+[06/15 08:39:01     12] #- End Load MMMC data ... (date=06/15 08:39:01, total cpu=0:00:00.0, real=0:00:00.0, peak res=491.1M, current mem=491.1M)
+[06/15 08:39:01     12] **WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+[06/15 08:39:01     12] 
+[06/15 08:39:01     12] Loading LEF file /home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/libs/lef/gsclib045_tech.lef ...
+[06/15 08:39:01     12] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+[06/15 08:39:01     12] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+[06/15 08:39:01     12] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+[06/15 08:39:01     12] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+[06/15 08:39:01     12] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+[06/15 08:39:01     12] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+[06/15 08:39:01     12] 
+[06/15 08:39:01     12] Loading LEF file /home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/libs/lef/gsclib045_macro.lef ...
+[06/15 08:39:01     12] Set DBUPerIGU to M2 pitch 400.
+[06/15 08:39:01     13] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[06/15 08:39:01     13] Type 'man IMPLF-200' for more detail.
+[06/15 08:39:01     13] 
+[06/15 08:39:01     13] viaInitial starts at Thu Jun 15 08:39:01 2023
+viaInitial ends at Thu Jun 15 08:39:01 2023
+Loading view definition file from /home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/viewDefinition.tcl
+[06/15 08:39:01     13] Reading WC timing library '/home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib' ...
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CON' of cell 'ACHCONX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX4' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX4' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHXL' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHXL' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFX4' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFX4' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFXL' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFXL' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDHX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDHX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDHX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[06/15 08:39:01     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP9'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib, Line 67517)
+[06/15 08:39:01     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP8'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP7'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP6'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP5'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP4'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP3'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP2'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP10'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+[06/15 08:39:01     13] Read 489 cells in library 'slow_vdd1v0' 
+[06/15 08:39:01     13] Reading BC timing library '/home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib' ...
+[06/15 08:39:02     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP9'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib, Line 67517)
+[06/15 08:39:02     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP8'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+[06/15 08:39:02     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP7'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+[06/15 08:39:02     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP6'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+[06/15 08:39:02     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP5'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+[06/15 08:39:02     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP4'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+[06/15 08:39:02     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP3'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+[06/15 08:39:02     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP2'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+[06/15 08:39:02     13] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP10'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+[06/15 08:39:02     13] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+[06/15 08:39:02     13] Read 489 cells in library 'fast_vdd1v0' 
+[06/15 08:39:02     13] *** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.23min, fe_real=5.52min, fe_mem=524.6M) ***
+[06/15 08:39:02     13] #- Begin Load netlist data ... (date=06/15 08:39:02, mem=524.6M)
+[06/15 08:39:02     13] *** Begin netlist parsing (mem=524.6M) ***
+[06/15 08:39:02     13] Created 489 new cells from 2 timing libraries.
+[06/15 08:39:02     13] Reading netlist ...
+[06/15 08:39:02     13] Backslashed names will retain backslash and a trailing blank character.
+[06/15 08:39:02     13] Reading verilogBinary netlist '/home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/TOP.v.bin'
+[06/15 08:39:02     13] Reading binary database version 1
+[06/15 08:39:02     13] 
+[06/15 08:39:02     13] *** Memory Usage v#1 (Current mem = 1047.652M, initial mem = 165.195M) ***
+[06/15 08:39:02     13] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=1047.7M) ***
+[06/15 08:39:02     13] #- End Load netlist data ... (date=06/15 08:39:02, total cpu=0:00:00.0, real=0:00:00.0, peak res=1047.7M, current mem=1047.7M)
+[06/15 08:39:02     13] Top level cell is TOP.
+[06/15 08:39:02     14] Hooked 978 DB cells to tlib cells.
+[06/15 08:39:02     14] Starting recursive module instantiation check.
+[06/15 08:39:02     14] No recursion found.
+[06/15 08:39:02     14] Building hierarchical netlist for Cell TOP ...
+[06/15 08:39:02     14] *** Netlist is unique.
+[06/15 08:39:02     14] ** info: there are 1075 modules.
+[06/15 08:39:02     14] ** info: there are 155 stdCell insts.
+[06/15 08:39:02     14] 
+[06/15 08:39:02     14] *** Memory Usage v#1 (Current mem = 1067.660M, initial mem = 165.195M) ***
+[06/15 08:39:02     14] *info: set bottom ioPad orient R0
+[06/15 08:39:02     14] **WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[06/15 08:39:02     14] Type 'man IMPFP-3961' for more detail.
+[06/15 08:39:02     14] **WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[06/15 08:39:02     14] Type 'man IMPFP-3961' for more detail.
+[06/15 08:39:02     14] Set Default Net Delay as 1000 ps.
+[06/15 08:39:02     14] Set Default Net Load as 0.5 pF. 
+[06/15 08:39:02     14] Set Default Input Pin Transition as 0.1 ps.
+[06/15 08:39:02     14] Loading preference file /home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/gui.pref.tcl ...
+[06/15 08:39:02     14] Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[06/15 08:39:02     14] 	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+[06/15 08:39:02     14] 	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+[06/15 08:39:02     14] 	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+[06/15 08:39:02     14] 	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[06/15 08:39:02     14] Updating process node dependent CCOpt properties for the 45nm process node.
+[06/15 08:39:02     14] Extraction setup Started 
+[06/15 08:39:02     14] Initializing multi-corner RC extraction with 2 active RC Corners ...
+[06/15 08:39:02     14] Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+[06/15 08:39:02     14] Loading preRoute extracted patterns from file '/home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/TOP.techData.gz' ...
+[06/15 08:39:02     14] Completed (cpu: 0:00:00.0 real: 0:00:00.0)
+[06/15 08:39:02     14] Set Shrink Factor to 1.00000
+[06/15 08:39:02     14] Summary of Active RC-Corners : 
+[06/15 08:39:02     14]  
+[06/15 08:39:02     14]  Analysis View: func@WC_rcworst125.setup
+[06/15 08:39:02     14]     RC-Corner Name        : rcworst125
+[06/15 08:39:02     14]     RC-Corner Index       : 0
+[06/15 08:39:02     14]     RC-Corner Temperature : 125 Celsius
+[06/15 08:39:02     14]     RC-Corner Cap Table   : ''
+[06/15 08:39:02     14]     RC-Corner PreRoute Res Factor         : 1
+[06/15 08:39:02     14]     RC-Corner PreRoute Cap Factor         : 1
+[06/15 08:39:02     14]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[06/15 08:39:02     14]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[06/15 08:39:02     14]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[06/15 08:39:02     14]     RC-Corner PreRoute Clock Res Factor   : 1
+[06/15 08:39:02     14]     RC-Corner PreRoute Clock Cap Factor   : 1
+[06/15 08:39:02     14]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+[06/15 08:39:02     14]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+[06/15 08:39:02     14]     RC-Corner Technology file: '/home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/libs/mmmc/rcworst125/gpdk045.tch'
+[06/15 08:39:02     14]  
+[06/15 08:39:02     14]  Analysis View: func@BC_rcbest0.hold
+[06/15 08:39:02     14]     RC-Corner Name        : rcbest0
+[06/15 08:39:02     14]     RC-Corner Index       : 1
+[06/15 08:39:02     14]     RC-Corner Temperature : 0 Celsius
+[06/15 08:39:02     14]     RC-Corner Cap Table   : ''
+[06/15 08:39:02     14]     RC-Corner PreRoute Res Factor         : 1
+[06/15 08:39:02     14]     RC-Corner PreRoute Cap Factor         : 1
+[06/15 08:39:02     14]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[06/15 08:39:02     14]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[06/15 08:39:02     14]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[06/15 08:39:02     14]     RC-Corner PreRoute Clock Res Factor   : 1
+[06/15 08:39:02     14]     RC-Corner PreRoute Clock Cap Factor   : 1
+[06/15 08:39:02     14]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+[06/15 08:39:02     14]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+[06/15 08:39:02     14]     RC-Corner Technology file: '/home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/libs/mmmc/rcworst125/gpdk045.tch'
+[06/15 08:39:02     14] Technology file '/home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/libs/mmmc/rcworst125/gpdk045.tch' associated with first view 'func@WC_rcworst125.setup' will be used as the primary corner for the multi-corner extraction.
+[06/15 08:39:02     14] Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+[06/15 08:39:02     14] *Info: initialize multi-corner CTS.
+[06/15 08:39:02     14] Reading timing constraints file '/home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/mmmc/modes/func/func.sdc' ...
+[06/15 08:39:02     14] Current (total cpu=0:00:14.3, real=0:05:31, peak res=316.7M, current mem=710.6M)
+[06/15 08:39:02     14] INFO (CTE): Constraints read successfully.
+[06/15 08:39:02     14] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=333.4M, current mem=728.8M)
+[06/15 08:39:02     14] Current (total cpu=0:00:14.3, real=0:05:31, peak res=333.4M, current mem=728.8M)
+[06/15 08:39:02     14] Summary for sequential cells idenfication: 
+[06/15 08:39:02     14] Identified SBFF number: 104
+[06/15 08:39:02     14] Identified MBFF number: 0
+[06/15 08:39:02     14] Not identified SBFF number: 16
+[06/15 08:39:02     14] Not identified MBFF number: 0
+[06/15 08:39:02     14] Number of sequential cells which are not FFs: 32
+[06/15 08:39:02     14] 
+[06/15 08:39:02     14] Total number of combinational cells: 327
+[06/15 08:39:02     14] Total number of sequential cells: 152
+[06/15 08:39:02     14] Total number of tristate cells: 10
+[06/15 08:39:02     14] Total number of level shifter cells: 0
+[06/15 08:39:02     14] Total number of power gating cells: 0
+[06/15 08:39:02     14] Total number of isolation cells: 0
+[06/15 08:39:02     14] Total number of power switch cells: 0
+[06/15 08:39:02     14] Total number of pulse generator cells: 0
+[06/15 08:39:02     14] Total number of always on buffers: 0
+[06/15 08:39:02     14] Total number of retention cells: 0
+[06/15 08:39:02     14] List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8
+[06/15 08:39:02     14] Total number of usable buffers: 8
+[06/15 08:39:02     14] List of unusable buffers: CLKBUFX2 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+[06/15 08:39:02     14] Total number of unusable buffers: 8
+[06/15 08:39:02     14] List of usable inverters: INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+[06/15 08:39:02     14] Total number of usable inverters: 10
+[06/15 08:39:02     14] List of unusable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX4 CLKINVX3 CLKINVX6 CLKINVX8
+[06/15 08:39:02     14] Total number of unusable inverters: 9
+[06/15 08:39:02     14] List of identified usable delay cells:
+[06/15 08:39:02     14] Total number of identified usable delay cells: 0
+[06/15 08:39:02     14] List of identified unusable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+[06/15 08:39:02     14] Total number of identified unusable delay cells: 8
+[06/15 08:39:02     14] All delay cells are dont_use. Buffers will be used to fix hold violations.
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX12 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/BUFX12
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX16 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/BUFX16
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX2 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/BUFX2
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX20 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/BUFX20
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX3 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/BUFX3
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX4 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/BUFX4
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX6 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/BUFX6
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX8 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/BUFX8
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX1 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/INVX1
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX12 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/INVX12
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX16 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/INVX16
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX2 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/INVX2
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX20 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/INVX20
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX3 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/INVX3
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX4 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/INVX4
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX6 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/INVX6
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX8 already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/INVX8
+[06/15 08:39:03     14] **WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVXL already has a dont_use attribute false.
+[06/15 08:39:03     14] Type 'man IMPOPT-3058' for more detail.
+[06/15 08:39:03     14]  Setting dont_use false for cell slow_vdd1v0/INVXL
+[06/15 08:39:03     14] #- Begin Load SymbolTable ... (date=06/15 08:39:03, mem=736.8M)
+[06/15 08:39:03     14] #- End Load SymbolTable ... (date=06/15 08:39:03, total cpu=0:00:00.0, real=0:00:00.0, peak res=736.8M, current mem=736.8M)
+[06/15 08:39:03     14] #- Begin Load floorplan data ... (date=06/15 08:39:03, mem=736.8M)
+[06/15 08:39:03     14] Reading floorplan file - /home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/TOP.fp.gz (mem = 736.8M).
+[06/15 08:39:03     14] *info: reset 173 existing net BottomPreferredLayer and AvoidDetour
+[06/15 08:39:03     14] Deleting old partition specification.
+[06/15 08:39:03     14] Set FPlanBox to (0 0 52000 52060)
+[06/15 08:39:03     14]  ... processed partition successfully.
+[06/15 08:39:03     14] Extracting standard cell pins and blockage ...... 
+[06/15 08:39:03     14] Pin and blockage extraction finished
+[06/15 08:39:03     14] *** End loading floorplan (cpu = 0:00:00.0, mem = 736.8M) ***
+[06/15 08:39:03     14] #- End Load floorplan data ... (date=06/15 08:39:03, total cpu=0:00:00.0, real=0:00:00.0, peak res=736.8M, current mem=736.8M)
+[06/15 08:39:03     14] #- Begin Load placement data ... (date=06/15 08:39:03, mem=736.8M)
+[06/15 08:39:03     14] *** Checked 4 GNC rules.
+[06/15 08:39:03     14] *** applyConnectGlobalNets disabled.
+[06/15 08:39:03     14] Reading placement file - /home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/TOP.place.gz.
+[06/15 08:39:03     14] ** Reading stdCellPlacement "/home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/TOP.place.gz" ...
+[06/15 08:39:03     14] *** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=736.8M) ***
+[06/15 08:39:03     14] Total net length = 1.329e+03 (6.365e+02 6.924e+02) (ext = 3.141e+02)
+[06/15 08:39:03     14] #- End Load placement data ... (date=06/15 08:39:03, total cpu=0:00:00.0, real=0:00:00.0, peak res=736.8M, current mem=736.8M)
+[06/15 08:39:03     14] *** Checked 4 GNC rules.
+[06/15 08:39:03     14] *** Applying global-net connections...
+[06/15 08:39:03     14] *** Applied 4 GNC rules (cpu = 0:00:00.0)
+[06/15 08:39:03     14] #- Begin Load routing data ... (date=06/15 08:39:03, mem=736.8M)
+[06/15 08:39:03     14] Reading routing file - /home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/TOP.route.gz.
+[06/15 08:39:03     14] Reading Innovus routing data (Created by Innovus v16.10-p004_1 on Wed Jun 14 15:49:00 2023 Format: 16.1) ...
+[06/15 08:39:03     14] Suppress "**WARN ..." messages.
+[06/15 08:39:03     14] routingBox: (0 0) (52000 52060)
+[06/15 08:39:03     14] coreBox:    (6000 6080) (46000 45980)
+[06/15 08:39:03     14] Un-suppress "**WARN ..." messages.
+[06/15 08:39:03     14] *** Total 173 nets are successfully restored.
+[06/15 08:39:03     14] *** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=736.8M) ***
+[06/15 08:39:03     14] #- End Load routing data ... (date=06/15 08:39:03, total cpu=0:00:00.0, real=0:00:00.0, peak res=736.8M, current mem=736.8M)
+[06/15 08:39:03     14] Reading property file /home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/TOP.prop
+[06/15 08:39:03     14] Extracting macro/IO cell pins and blockage ...... 
+[06/15 08:39:03     14] Pin and blockage extraction finished
+[06/15 08:39:03     14] *** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=736.8M) ***
+[06/15 08:39:03     14] Set Default Input Pin Transition as 0.1 ps.
+[06/15 08:39:03     14] **WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+[06/15 08:39:03     14] Updating RC grid for preRoute extraction ...
+[06/15 08:39:03     14] Initializing multi-corner resistance tables ...
+[06/15 08:39:03     14] Loading rc congestion map /home/Team14/cds_digital/ALU_Project/PnR/dbs/placeopt.enc.dat/TOP.congmap.gz ...
+[06/15 08:39:03     14] #- Begin Load power constraints ... (date=06/15 08:39:03, mem=731.5M)
+[06/15 08:39:03     14] #- End Load power constraints ... (date=06/15 08:39:03, total cpu=0:00:00.0, real=0:00:00.0, peak res=731.5M, current mem=731.5M)
+[06/15 08:39:03     14] #- Begin load AAE data ... (date=06/15 08:39:03, mem=731.5M)
+[06/15 08:39:03     14] #- End load AAE data ... (date=06/15 08:39:03, total cpu=0:00:00.0, real=0:00:00.0, peak res=731.5M, current mem=731.5M)
+[06/15 08:39:03     14] 
+[06/15 08:39:03     14] *** Summary of all messages that are not suppressed in this session:
+[06/15 08:39:03     14] Severity  ID               Count  Summary                                  
+[06/15 08:39:03     14] WARNING   IMPLF-155            6  ViaRule only supports routing/cut layer,...
+[06/15 08:39:03     14] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[06/15 08:39:03     14] WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+[06/15 08:39:03     14] WARNING   IMPOPT-3058         18  Cell %s/%s already has a dont_use attrib...
+[06/15 08:39:03     14] *** Message Summary: 27 warning(s), 0 error(s)
+[06/15 08:39:03     14] 
+[06/15 09:03:48     14] 
+[06/15 09:03:48     14] *** Memory Usage v#1 (Current mem = 1114.766M, initial mem = 165.195M) ***
+[06/15 09:03:48     14] 
+[06/15 09:03:48     14] *** Summary of all messages that are not suppressed in this session:
+[06/15 09:03:48     14] Severity  ID               Count  Summary                                  
+[06/15 09:03:48     14] WARNING   IMPLF-155            6  ViaRule only supports routing/cut layer,...
+[06/15 09:03:48     14] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[06/15 09:03:48     15] WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+[06/15 09:03:48     15] WARNING   IMPOPT-3058         18  Cell %s/%s already has a dont_use attrib...
+[06/15 09:03:48     15] *** Message Summary: 27 warning(s), 0 error(s)
+[06/15 09:03:48     15] 
+[06/15 09:03:48     15] --- Ending "Innovus" (totcpu=0:00:15.0, real=0:30:17, mem=1114.8M) ---

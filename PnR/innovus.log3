@@ -1,0 +1,983 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v16.10-p004_1, built Thu May 12 14:48:49 PDT 2016
+Options:	
+Date:		Tue Jun 13 16:42:41 2023
+Host:		CadenceServer3.localdomain (x86_64 w/Linux 2.6.32-642.el6.x86_64) (8cores*16cpus*Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz 20480KB)
+OS:		CentOS release 6.8 (Final)
+
+License:
+		invs	Innovus Implementation System	16.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+<CMD> getVersion
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> setMultiCpuUsage -localCpu 8
+<CMD> setDesignMode -process 45
+Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+Updating process node dependent CCOpt properties for the 45nm process node.
+<CMD> set init_pwr_net VDD
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file {/home/cad/VLSI2Lab/Digital/library/gsclib045_tech.lef /home/cad/VLSI2Lab/Digital/library/gsclib045_macro.lef}
+<CMD> set init_verilog TOP_m.v
+<CMD> set init_mmmc_file TOP.view
+<CMD> init_design
+#- Begin Load MMMC data ... (date=06/13 16:44:00, mem=499.1M)
+#- End Load MMMC data ... (date=06/13 16:44:00, total cpu=0:00:00.0, real=0:00:00.0, peak res=499.1M, current mem=499.1M)
+rcworst125 rcbest0
+**WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+
+Loading LEF file /home/cad/VLSI2Lab/Digital/library/gsclib045_tech.lef ...
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+
+Loading LEF file /home/cad/VLSI2Lab/Digital/library/gsclib045_macro.lef ...
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+
+viaInitial starts at Tue Jun 13 16:44:00 2023
+viaInitial ends at Tue Jun 13 16:44:00 2023
+Loading view definition file from TOP.view
+Starting library reading in 'Multi-threaded flow' (with '8' threads)
+Reading WC timing library /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHXL' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CON' of cell 'ACHCONX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFHX4' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHXL' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFHX4' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDHX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDHX1' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFX4' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFXL' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDHX2' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFX4' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFXL' is not defined in the library. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP9'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP8'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP7'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP6'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP5'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP4'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP3'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP2'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP10'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+Read 489 cells in slow_vdd1v0.
+Library reading multithread flow ended. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+Starting library reading in 'Multi-threaded flow' (with '8' threads)
+Reading BC timing library /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib.
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP9'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib, Line 67517)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP8'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP7'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP6'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP5'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP4'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP3'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP2'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP10'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+Read 489 cells in fast_vdd1v0.
+Library reading multithread flow ended. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.19min, fe_real=1.32min, fe_mem=563.9M) ***
+#- Begin Load netlist data ... (date=06/13 16:44:00, mem=563.9M)
+*** Begin netlist parsing (mem=563.9M) ***
+Created 489 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'TOP_m.v'
+
+*** Memory Usage v#1 (Current mem = 563.918M, initial mem = 165.195M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=563.9M) ***
+#- End Load netlist data ... (date=06/13 16:44:00, total cpu=0:00:00.0, real=0:00:00.0, peak res=563.9M, current mem=563.9M)
+Top level cell is TOP.
+Hooked 978 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell TOP ...
+*** Netlist is unique.
+** info: there are 1075 modules.
+** info: there are 152 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 573.238M, initial mem = 165.195M) ***
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 2 active RC Corners ...
+Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+Importing multi-corner technology file(s) for preRoute extraction...
+gpdk045.tch
+Completed (cpu: 0:00:06.7 real: 0:00:07.0)
+Set Shrink Factor to 1.00000
+Summary of Active RC-Corners : 
+ 
+ Analysis View: func@WC_rcworst125.setup
+    RC-Corner Name        : rcworst125
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1
+    RC-Corner PreRoute Clock Cap Factor   : 1
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+    RC-Corner Technology file: 'gpdk045.tch'
+ 
+ Analysis View: func@BC_rcbest0.hold
+    RC-Corner Name        : rcbest0
+    RC-Corner Index       : 1
+    RC-Corner Temperature : 0 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1
+    RC-Corner PreRoute Clock Cap Factor   : 1
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+    RC-Corner Technology file: 'gpdk045.tch'
+Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+*Info: initialize multi-corner CTS.
+Reading timing constraints file 'TOP_m.sdc' ...
+Current (total cpu=0:00:18.4, real=0:01:27, peak res=353.3M, current mem=781.5M)
+TOP
+Number of path exceptions in the constraint file = 2
+Number of paths exceptions after getting compressed = 2
+INFO (CTE): Constraints read successfully.
+WARNING (CTE-25): Line: 9, 10 of File TOP_m.sdc : Skipped unsupported command: set_units
+
+
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=368.9M, current mem=797.7M)
+Current (total cpu=0:00:18.4, real=0:01:27, peak res=368.9M, current mem=797.7M)
+Total number of combinational cells: 327
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8
+Total number of usable buffers: 8
+List of unusable buffers: CLKBUFX2 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+Total number of unusable buffers: 8
+List of usable inverters: INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+Total number of usable inverters: 10
+List of unusable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX4 CLKINVX3 CLKINVX6 CLKINVX8
+Total number of unusable inverters: 9
+List of identified usable delay cells:
+Total number of identified usable delay cells: 0
+List of identified unusable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+Total number of identified unusable delay cells: 8
+All delay cells are dont_use. Buffers will be used to fix hold violations.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-155            6  ViaRule only supports routing/cut layer,...
+WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+*** Message Summary: 9 warning(s), 0 error(s)
+
+<CMD> deleteEmptyModule
+Current (total cpu=0:00:18.6, real=0:01:27, peak res=368.9M, current mem=788.9M)
+TOP
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=373.7M, current mem=798.7M)
+Current (total cpu=0:00:18.7, real=0:01:27, peak res=373.7M, current mem=798.7M)
+<CMD> checkUnique
+<CMD> globalNetConnect VDD -type pgpin -pin VDD -inst *
+<CMD> globalNetConnect VDD -type tiehi -inst *
+<CMD> globalNetConnect VSS -type pgpin -pin VSS -inst *
+<CMD> globalNetConnect VSS -type tielo -inst *
+func
+<CMD> set_interactive_constraint_modes [all_constraint_modes -active]
+<CMD> setDontUse BUF* false
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX8 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+<CMD> setDontUse INV* false
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVXL already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+<CMD> set_dont_touch [get_lib_cells "*/BUF* */INV* " ] false
+<CMD> set enc_save_portable_design 1
+<CMD> saveDesign dbs/import.enc -compress
+#- Begin Save netlist data ... (date=06/13 16:44:08, mem=798.7M)
+Writing Binary DB to dbs/import.enc.dat.tmp/TOP.v.bin ...
+#- End Save netlist data ... (date=06/13 16:44:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1313.7M, current mem=1313.7M)
+#- Begin Save AAE data ... (date=06/13 16:44:08, mem=1313.7M)
+Saving AAE Data ...
+#- End Save AAE data ... (date=06/13 16:44:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1313.7M, current mem=1313.7M)
+#- Begin Save clock tree data ... (date=06/13 16:44:08, mem=1313.7M)
+#- End Save clock tree data ... (date=06/13 16:44:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1313.7M, current mem=1313.7M)
+Saving preference file dbs/import.enc.dat.tmp/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+#- Begin Save floorplan data ... (date=06/13 16:44:08, mem=1313.7M)
+Saving floorplan file ...
+#- End Save floorplan data ... (date=06/13 16:44:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1313.7M, current mem=1313.7M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+#- Begin Save placement data ... (date=06/13 16:44:08, mem=1313.7M)
+Saving placement file ...
+#- End Save placement data ... (date=06/13 16:44:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1313.7M, current mem=1313.7M)
+#- Begin Save routing data ... (date=06/13 16:44:08, mem=1313.7M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1313.7M) ***
+#- End Save routing data ... (date=06/13 16:44:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1313.7M, current mem=1313.7M)
+Saving property file dbs/import.enc.dat.tmp/TOP.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1313.7M) ***
+#- Begin Save power constraints data ... (date=06/13 16:44:08, mem=1313.7M)
+#- End Save power constraints data ... (date=06/13 16:44:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1313.7M, current mem=1313.7M)
+Saving preRoute extracted patterns in file 'dbs/import.enc.dat.tmp/TOP.techData.gz' ...
+No integration constraint in the design.
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+Generated self-contained design import.enc.dat.tmp
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> saveNetlist ./generated_netlist/import.v
+Writing Netlist "./generated_netlist/import.v" ...
+<CMD> restoreDesign /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat TOP
+Resetting process node dependent CCOpt properties.
+Reset to color id 0 for alu_inst (ALU) and all their descendants.
+Reset to color id 0 for shifter_inst (SHIFTER) and all their descendants.
+Free PSO.
+Cleaning up the current multi-corner RC extraction setup.
+Resetting process node dependent CCOpt properties.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+*** Memory Usage v#1 (Current mem = 1040.695M, initial mem = 165.195M) ***
+
+
+Info (SM2C): Status of key globals:
+	 MMMC-by-default flow     : 1
+	 Default MMMC objs envvar : 0
+	 Data portability         : 0
+	 MMMC PV Emulation        : 0
+	 MMMC debug               : 0
+	 Init_Design flow         : 1
+
+
+	 CTE SM2C global          : false
+	 Reporting view filter    : false
+Set Default Input Pin Transition as 0.1 ps.
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+#- Begin Load MMMC data ... (date=06/13 16:45:28, mem=1040.7M)
+#- End Load MMMC data ... (date=06/13 16:45:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=1040.7M, current mem=1040.7M)
+rcworst125 rcbest0
+**WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+
+Loading LEF file /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/libs/lef/gsclib045_tech.lef ...
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+
+Loading LEF file /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/libs/lef/gsclib045_macro.lef ...
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+
+viaInitial starts at Tue Jun 13 16:45:29 2023
+viaInitial ends at Tue Jun 13 16:45:29 2023
+Loading view definition file from /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/viewDefinition.tcl
+Starting library reading in 'Multi-threaded flow' (with '8' threads)
+Reading WC timing library /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib.
+Message <TECHLIB-302> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Read 489 cells in slow_vdd1v0.
+Library reading multithread flow ended. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+Starting library reading in 'Multi-threaded flow' (with '8' threads)
+Reading BC timing library /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib.
+Read 489 cells in fast_vdd1v0.
+Library reading multithread flow ended. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.42min, fe_real=2.80min, fe_mem=946.3M) ***
+#- Begin Load netlist data ... (date=06/13 16:45:29, mem=946.3M)
+*** Begin netlist parsing (mem=946.3M) ***
+Created 489 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilogBinary netlist '/home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/TOP.v.bin'
+Reading binary database version 1
+
+*** Memory Usage v#1 (Current mem = 1460.316M, initial mem = 165.195M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=1460.3M) ***
+#- End Load netlist data ... (date=06/13 16:45:29, total cpu=0:00:00.0, real=0:00:00.0, peak res=1460.3M, current mem=1460.3M)
+Top level cell is TOP.
+Hooked 978 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell TOP ...
+*** Netlist is unique.
+** info: there are 1075 modules.
+** info: there are 155 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 1460.316M, initial mem = 165.195M) ***
+*info: set bottom ioPad orient R0
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+Loading preference file /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/gui.pref.tcl ...
+Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+Updating process node dependent CCOpt properties for the 45nm process node.
+**WARN: analysis view func@BC_rcbest0.hold not found, use default_view_setup
+Extraction setup Started 
+Initializing multi-corner RC extraction with 2 active RC Corners ...
+Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+Loading preRoute extracted patterns from file '/home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/TOP.techData.gz' ...
+Completed (cpu: 0:00:00.0 real: 0:00:00.0)
+Set Shrink Factor to 1.00000
+Summary of Active RC-Corners : 
+ 
+ Analysis View: func@WC_rcworst125.setup
+    RC-Corner Name        : rcworst125
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1
+    RC-Corner PreRoute Clock Cap Factor   : 1
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+    RC-Corner Technology file: '/home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/libs/mmmc/rcworst125/gpdk045.tch'
+ 
+ Analysis View: func@BC_rcbest0.hold
+    RC-Corner Name        : rcbest0
+    RC-Corner Index       : 1
+    RC-Corner Temperature : 0 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1
+    RC-Corner PreRoute Clock Cap Factor   : 1
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+    RC-Corner Technology file: '/home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/libs/mmmc/rcworst125/gpdk045.tch'
+Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+*Info: initialize multi-corner CTS.
+Reading timing constraints file '/home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/mmmc/modes/func/func.sdc' ...
+Current (total cpu=0:00:25.7, real=0:02:49, peak res=504.1M, current mem=1072.7M)
+TOP
+Number of path exceptions in the constraint file = 2
+Number of paths exceptions after getting compressed = 2
+INFO (CTE): Constraints read successfully.
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=512.5M, current mem=1082.4M)
+Current (total cpu=0:00:25.8, real=0:02:49, peak res=512.5M, current mem=1082.4M)
+Total number of combinational cells: 327
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8
+Total number of usable buffers: 8
+List of unusable buffers: CLKBUFX2 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+Total number of unusable buffers: 8
+List of usable inverters: INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+Total number of usable inverters: 10
+List of unusable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX4 CLKINVX3 CLKINVX6 CLKINVX8
+Total number of unusable inverters: 9
+List of identified usable delay cells:
+Total number of identified usable delay cells: 0
+List of identified unusable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+Total number of identified unusable delay cells: 8
+All delay cells are dont_use. Buffers will be used to fix hold violations.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX12 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX16 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX2 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX20 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX3 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX4 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX6 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX8 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX1 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX12 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX16 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX2 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX20 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX3 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX4 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX6 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVX8 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVXL already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+#- Begin Load SymbolTable ... (date=06/13 16:45:30, mem=1090.4M)
+#- End Load SymbolTable ... (date=06/13 16:45:30, total cpu=0:00:00.0, real=0:00:00.0, peak res=1090.4M, current mem=1090.4M)
+#- Begin Load floorplan data ... (date=06/13 16:45:30, mem=1090.4M)
+Reading floorplan file - /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/TOP.fp.gz (mem = 1090.4M).
+*info: reset 173 existing net BottomPreferredLayer and AvoidDetour
+Deleting old partition specification.
+Set FPlanBox to (0 0 52000 52060)
+ ... processed partition successfully.
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+*** End loading floorplan (cpu = 0:00:00.0, mem = 1090.4M) ***
+#- End Load floorplan data ... (date=06/13 16:45:30, total cpu=0:00:00.0, real=0:00:00.0, peak res=1090.4M, current mem=1090.4M)
+#- Begin Load placement data ... (date=06/13 16:45:30, mem=1090.4M)
+*** Checked 4 GNC rules.
+*** applyConnectGlobalNets disabled.
+Reading placement file - /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/TOP.place.gz.
+** Reading stdCellPlacement "/home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/TOP.place.gz" ...
+*** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1090.4M) ***
+Total net length = 1.329e+03 (6.365e+02 6.924e+02) (ext = 3.141e+02)
+#- End Load placement data ... (date=06/13 16:45:30, total cpu=0:00:00.0, real=0:00:00.0, peak res=1090.4M, current mem=1090.4M)
+*** Checked 4 GNC rules.
+*** Applying global-net connections...
+*** Applied 4 GNC rules (cpu = 0:00:00.0)
+#- Begin Load routing data ... (date=06/13 16:45:30, mem=1090.4M)
+Reading routing file - /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/TOP.route.gz.
+Reading Innovus routing data (Created by Innovus v16.10-p004_1 on Tue Jun 13 11:07:09 2023 Format: 16.1) ...
+Suppress "**WARN ..." messages.
+Un-suppress "**WARN ..." messages.
+*** Total 173 nets are successfully restored.
+*** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1090.4M) ***
+#- End Load routing data ... (date=06/13 16:45:30, total cpu=0:00:00.0, real=0:00:00.0, peak res=1090.4M, current mem=1090.4M)
+Loading Drc markers ...
+... 21 markers are loaded ...
+... 0 geometry drc markers are loaded ...
+... 0 antenna drc markers are loaded ...
+Reading property file /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/TOP.prop
+Extracting macro/IO cell pins and blockage ...... 
+Pin and blockage extraction finished
+*** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1090.4M) ***
+Set Default Input Pin Transition as 0.1 ps.
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner resistance tables ...
+Loading rc congestion map /home/Team14/cds_digital/ALU_Project/PnR/placement.enc.dat/TOP.congmap.gz ...
+#- Begin Load power constraints ... (date=06/13 16:45:30, mem=1082.4M)
+'set_default_switching_activity' finished successfully.
+#- End Load power constraints ... (date=06/13 16:45:30, total cpu=0:00:00.0, real=0:00:00.0, peak res=1082.4M, current mem=1082.4M)
+#- Begin load AAE data ... (date=06/13 16:45:30, mem=1082.4M)
+#- End load AAE data ... (date=06/13 16:45:30, total cpu=0:00:00.0, real=0:00:00.0, peak res=1082.4M, current mem=1082.4M)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-155            6  ViaRule only supports routing/cut layer,...
+WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+WARNING   IMPOPT-3058         18  Cell %s/%s already has a dont_use attrib...
+*** Message Summary: 27 warning(s), 0 error(s)
+
+<CMD> freeDesign
+Resetting process node dependent CCOpt properties.
+Reset to color id 0 for alu_inst (ALU) and all their descendants.
+Reset to color id 0 for shifter_inst (SHIFTER) and all their descendants.
+Free PSO.
+Cleaning up the current multi-corner RC extraction setup.
+Resetting process node dependent CCOpt properties.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+*** Memory Usage v#1 (Current mem = 1080.660M, initial mem = 165.195M) ***
+
+
+Info (SM2C): Status of key globals:
+	 MMMC-by-default flow     : 1
+	 Default MMMC objs envvar : 0
+	 Data portability         : 0
+	 MMMC PV Emulation        : 0
+	 MMMC debug               : 0
+	 Init_Design flow         : 1
+
+
+	 CTE SM2C global          : false
+	 Reporting view filter    : false
+<CMD> setMultiCpuUsage -localCpu 8
+<CMD> setDesignMode -process 45
+Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+Updating process node dependent CCOpt properties for the 45nm process node.
+<CMD> set init_pwr_net VDD
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file {/home/cad/VLSI2Lab/Digital/library/gsclib045_tech.lef /home/cad/VLSI2Lab/Digital/library/gsclib045_macro.lef}
+<CMD> set init_verilog TOP_m.v
+<CMD> set init_mmmc_file TOP.view
+<CMD> init_design
+#- Begin Load MMMC data ... (date=06/13 16:46:45, mem=1080.7M)
+#- End Load MMMC data ... (date=06/13 16:46:45, total cpu=0:00:00.0, real=0:00:00.0, peak res=1080.7M, current mem=1080.7M)
+rcworst125 rcbest0
+**WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+
+Loading LEF file /home/cad/VLSI2Lab/Digital/library/gsclib045_tech.lef ...
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+**WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+
+Loading LEF file /home/cad/VLSI2Lab/Digital/library/gsclib045_macro.lef ...
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+
+viaInitial starts at Tue Jun 13 16:46:45 2023
+viaInitial ends at Tue Jun 13 16:46:45 2023
+Loading view definition file from TOP.view
+Starting library reading in 'Multi-threaded flow' (with '8' threads)
+Reading WC timing library /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib.
+Read 489 cells in slow_vdd1v0.
+Library reading multithread flow ended. (File /home/Team14/cds_digital/ALU_Project/PnR/slow_vdd1v0_basicCells.lib)
+Starting library reading in 'Multi-threaded flow' (with '8' threads)
+Reading BC timing library /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib.
+Read 489 cells in fast_vdd1v0.
+Library reading multithread flow ended. (File /home/Team14/cds_digital/ALU_Project/PnR/fast_vdd1v0_basicCells.lib)
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.49min, fe_real=4.08min, fe_mem=963.9M) ***
+#- Begin Load netlist data ... (date=06/13 16:46:46, mem=963.9M)
+*** Begin netlist parsing (mem=963.9M) ***
+Created 489 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'TOP_m.v'
+
+*** Memory Usage v#1 (Current mem = 963.949M, initial mem = 165.195M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=963.9M) ***
+#- End Load netlist data ... (date=06/13 16:46:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=963.9M, current mem=963.9M)
+Top level cell is TOP.
+Hooked 978 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell TOP ...
+*** Netlist is unique.
+** info: there are 1075 modules.
+** info: there are 152 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 969.949M, initial mem = 165.195M) ***
+*info: set bottom ioPad orient R0
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+**WARN: analysis view func@BC_rcbest0.hold not found, use default_view_setup
+**WARN: analysis view func@BC_rcbest0.hold not found, use default_view_setup
+Extraction setup Started 
+Initializing multi-corner RC extraction with 2 active RC Corners ...
+Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+Importing multi-corner technology file(s) for preRoute extraction...
+gpdk045.tch
+Completed (cpu: 0:00:06.3 real: 0:00:06.0)
+Set Shrink Factor to 1.00000
+Summary of Active RC-Corners : 
+ 
+ Analysis View: func@WC_rcworst125.setup
+    RC-Corner Name        : rcworst125
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1
+    RC-Corner PreRoute Clock Cap Factor   : 1
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+    RC-Corner Technology file: 'gpdk045.tch'
+ 
+ Analysis View: func@BC_rcbest0.hold
+    RC-Corner Name        : rcbest0
+    RC-Corner Index       : 1
+    RC-Corner Temperature : 0 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1
+    RC-Corner PreRoute Clock Cap Factor   : 1
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+    RC-Corner Technology file: 'gpdk045.tch'
+Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+*Info: initialize multi-corner CTS.
+Reading timing constraints file 'TOP_m.sdc' ...
+Current (total cpu=0:00:36.1, real=0:04:11, peak res=558.2M, current mem=1148.5M)
+TOP
+Number of path exceptions in the constraint file = 2
+Number of paths exceptions after getting compressed = 2
+INFO (CTE): Constraints read successfully.
+WARNING (CTE-25): Line: 9, 10 of File TOP_m.sdc : Skipped unsupported command: set_units
+
+
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=566.4M, current mem=1158.2M)
+Current (total cpu=0:00:36.1, real=0:04:11, peak res=566.4M, current mem=1158.2M)
+Total number of combinational cells: 327
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8
+Total number of usable buffers: 8
+List of unusable buffers: CLKBUFX2 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+Total number of unusable buffers: 8
+List of usable inverters: INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+Total number of usable inverters: 10
+List of unusable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX4 CLKINVX3 CLKINVX6 CLKINVX8
+Total number of unusable inverters: 9
+List of identified usable delay cells:
+Total number of identified usable delay cells: 0
+List of identified unusable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+Total number of identified unusable delay cells: 8
+All delay cells are dont_use. Buffers will be used to fix hold violations.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-155            6  ViaRule only supports routing/cut layer,...
+WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+*** Message Summary: 9 warning(s), 0 error(s)
+
+<CMD> deleteEmptyModule
+Current (total cpu=0:00:36.3, real=0:04:12, peak res=566.4M, current mem=1147.9M)
+TOP
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=568.9M, current mem=1157.6M)
+Current (total cpu=0:00:36.3, real=0:04:12, peak res=568.9M, current mem=1157.6M)
+<CMD> checkUnique
+<CMD> globalNetConnect VDD -type pgpin -pin VDD -inst *
+<CMD> globalNetConnect VDD -type tiehi -inst *
+<CMD> globalNetConnect VSS -type pgpin -pin VSS -inst *
+<CMD> globalNetConnect VSS -type tielo -inst *
+func
+<CMD> set_interactive_constraint_modes [all_constraint_modes -active]
+<CMD> setDontUse BUF* false
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/BUFX8 already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+<CMD> setDontUse INV* false
+**WARN: (IMPOPT-3058):	Cell slow_vdd1v0/INVXL already has a dont_use attribute false.
+Type 'man IMPOPT-3058' for more detail.
+<CMD> set_dont_touch [get_lib_cells "*/BUF* */INV* " ] false
+<CMD> set enc_save_portable_design 1
+<CMD> saveDesign dbs/import.enc -compress
+#- Begin Save netlist data ... (date=06/13 16:46:53, mem=1157.6M)
+Writing Binary DB to dbs/import.enc.dat.tmp/TOP.v.bin ...
+#- End Save netlist data ... (date=06/13 16:46:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1673.6M, current mem=1673.6M)
+#- Begin Save AAE data ... (date=06/13 16:46:53, mem=1673.6M)
+Saving AAE Data ...
+#- End Save AAE data ... (date=06/13 16:46:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1673.6M, current mem=1673.6M)
+#- Begin Save clock tree data ... (date=06/13 16:46:53, mem=1673.6M)
+#- End Save clock tree data ... (date=06/13 16:46:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1673.6M, current mem=1673.6M)
+Saving preference file dbs/import.enc.dat.tmp/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+#- Begin Save floorplan data ... (date=06/13 16:46:53, mem=1673.7M)
+Saving floorplan file ...
+#- End Save floorplan data ... (date=06/13 16:46:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1673.7M, current mem=1673.7M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+#- Begin Save placement data ... (date=06/13 16:46:53, mem=1673.7M)
+Saving placement file ...
+#- End Save placement data ... (date=06/13 16:46:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1673.7M, current mem=1673.7M)
+#- Begin Save routing data ... (date=06/13 16:46:53, mem=1673.7M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1673.7M) ***
+#- End Save routing data ... (date=06/13 16:46:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1673.7M, current mem=1673.7M)
+Saving property file dbs/import.enc.dat.tmp/TOP.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1673.7M) ***
+#- Begin Save power constraints data ... (date=06/13 16:46:53, mem=1673.7M)
+#- End Save power constraints data ... (date=06/13 16:46:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1673.7M, current mem=1673.7M)
+Saving preRoute extracted patterns in file 'dbs/import.enc.dat.tmp/TOP.techData.gz' ...
+No integration constraint in the design.
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+Generated self-contained design import.enc.dat.tmp
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> saveNetlist ./generated_netlist/import.v
+Writing Netlist "./generated_netlist/import.v" ...
+<CMD> floorPlan -d {26 26 3 3 3 3}
+**WARN: (IMPFP-4026):	Adjusting core to 'Bottom' to 3.040000 due to track/row misalignment. To force the value, specify the -noSnapToGrid option or use fpiSetSnapRule command to specify the die/core to different grid.
+**WARN: (IMPFP-4026):	Adjusting core to 'Top' to 3.040000 due to track/row misalignment. To force the value, specify the -noSnapToGrid option or use fpiSetSnapRule command to specify the die/core to different grid.
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> loadIoFile TOP_IO.io
+Reading IO assignment file "TOP_IO.io" ...
+**WARN: (IMPFP-669):	IO pin "O[4]" not found.
+<CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 0.8 bottom 0.8 left 0.8 right 0.8} -spacing {top 0.5 bottom 0.5 left 0.5 right 0.5} -offset {top 0 bottom 0 left 0 right 0} -center 1 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+#- Begin addRing (date=06/13 16:47:31, mem=1160.7M)
+
+Ring generation is complete; vias are now being generated.
+The power planner created 8 wires.
+#- End addRing (date=06/13 16:47:31, total cpu=0:00:00.0, real=0:00:00.0, peak res=1160.7M, current mem=1160.7M)
+<CMD> addStripe -nets {VDD VSS} -layer Metal9 -direction horizontal -width 0.4 -spacing 0.3 -number_of_sets 5 -start_from bottom -start_offset 0.5 -stop_offset 0.5 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal11 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal11 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+#- Begin addStripe (date=06/13 16:47:31, mem=1160.7M)
+**WARN: (IMPPP-4063):	Multi-CPU is set to 4 in addStripe.  When the number of CPU in setMultiCpuUsage is more than 4, addStripe gets worse runtime caused by data exchange and other time consuming operations
+
+Starting stripe generation ...
+Non-Default setAddStripeOption Settings :
+  NONE
+**WARN: (IMPPP-4055):	The run time of addStripe will degrade with multiple cpu setting according to the number of stripe sets, ingore the setting of setMultiCpuUsage in addStripe.
+Stripe generation is complete; vias are now being generated.
+The power planner created 10 wires.
+#- End addStripe (date=06/13 16:47:31, total cpu=0:00:00.0, real=0:00:00.0, peak res=1160.7M, current mem=1160.7M)
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 0.4 -spacing 0.3 -number_of_sets 5 -start_from left -start_offset 0.5 -stop_offset 0.5 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal11 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal11 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+#- Begin addStripe (date=06/13 16:47:31, mem=1160.7M)
+**WARN: (IMPPP-4063):	Multi-CPU is set to 4 in addStripe.  When the number of CPU in setMultiCpuUsage is more than 4, addStripe gets worse runtime caused by data exchange and other time consuming operations
+
+Starting stripe generation ...
+Non-Default setAddStripeOption Settings :
+  NONE
+**WARN: (IMPPP-4055):	The run time of addStripe will degrade with multiple cpu setting according to the number of stripe sets, ingore the setting of setMultiCpuUsage in addStripe.
+Stripe generation is complete; vias are now being generated.
+The power planner created 10 wires.
+#- End addStripe (date=06/13 16:47:31, total cpu=0:00:00.0, real=0:00:00.0, peak res=1160.7M, current mem=1160.7M)
+<CMD> sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { Metal1(1) Metal8(8) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { Metal1(1) Metal8(8) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { Metal1(1) Metal8(8) }
+#- Begin sroute (date=06/13 16:47:31, mem=1160.7M)
+*** Begin SPECIAL ROUTE on Tue Jun 13 16:47:32 2023 ***
+SPECIAL ROUTE ran on directory: /home/Team14/cds_digital/ALU_Project/PnR
+SPECIAL ROUTE ran on machine: CadenceServer3.localdomain (Linux 2.6.32-642.el6.x86_64 Xeon 2.40Ghz)
+
+Begin option processing ...
+srouteConnectPowerBump set to false
+routeSelectNet set to "VDD VSS"
+routeSpecial set to true
+srouteBlockPin set to "useLef"
+srouteBottomLayerLimit set to 1
+srouteBottomTargetLayerLimit set to 1
+srouteConnectConverterPin set to false
+srouteCrossoverViaBottomLayer set to 1
+srouteCrossoverViaTopLayer set to 8
+srouteFloatingStripeTarget set to "blockring padring ring stripe ringpin blockpin followpin"
+srouteFollowCorePinEnd set to 3
+srouteJogControl set to "preferWithChanges differentLayer"
+sroutePadPinAllPorts set to true
+sroutePreserveExistingRoutes set to true
+srouteRoutePowerBarPortOnBothDir set to true
+srouteStopBlockPin set to "nearestTarget"
+srouteTopLayerLimit set to 8
+srouteTopTargetLayerLimit set to 8
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 1874.00 megs.
+
+Reading DB technology information...
+Finished reading DB technology information.
+Reading floorplan and netlist information...
+Finished reading floorplan and netlist information.
+**WARN: (IMPSR-4302):	Cap-table is found in the design, so the same information from the technology file will be ignored.
+Read in 24 layers, 11 routing layers, 1 overlap layer
+Read in 2 nondefault rules, 0 used
+Read in 583 macros, 31 used
+Read in 31 components
+  31 core components: 31 unplaced, 0 placed, 0 fixed
+Read in 21 physical pins
+  21 physical pins: 0 unplaced, 21 placed, 0 fixed
+Read in 21 nets
+Read in 2 special nets, 2 routed
+Read in 83 terminals
+2 nets selected.
+
+Begin power routing ...
+**WARN: (IMPSR-1254):	Cannot find any block pin of net VDD. Check netlist, or change option to include the pin.
+**WARN: (IMPSR-1256):	Cannot find any CORE class pad pin of net VDD. Change routing area or layer to include the expected pin, or check netlist, or change port class in the technology file.
+Type 'man IMPSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net VDD. Check net list, or change port class in the technology file, or change option to include pin in given range.
+**WARN: (IMPSR-1254):	Cannot find any block pin of net VSS. Check netlist, or change option to include the pin.
+**WARN: (IMPSR-1256):	Cannot find any CORE class pad pin of net VSS. Change routing area or layer to include the expected pin, or check netlist, or change port class in the technology file.
+Type 'man IMPSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net VSS. Check net list, or change port class in the technology file, or change option to include pin in given range.
+CPU time for FollowPin 0 seconds
+CPU time for FollowPin 0 seconds
+  Number of IO ports routed: 0
+  Number of Block ports routed: 0
+  Number of Stripe ports routed: 0
+  Number of Core ports routed: 24
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 12
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 1877.00 megs.
+
+
+
+ Begin updating DB with routing results ...
+ Updating DB with 137 via definition ...
+ Updating DB with 21 io pins ...Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+
+
+sroute post-processing starts at Tue Jun 13 16:47:32 2023
+The viaGen is rebuilding shadow vias for net VSS.
+sroute post-processing ends at Tue Jun 13 16:47:32 2023
+
+sroute post-processing starts at Tue Jun 13 16:47:32 2023
+The viaGen is rebuilding shadow vias for net VDD.
+sroute post-processing ends at Tue Jun 13 16:47:32 2023
+#- End sroute (date=06/13 16:47:32, total cpu=0:00:00.6, real=0:00:01.0, peak res=1163.9M, current mem=1163.9M)
+<CMD> saveDesign dbs/floorpower.enc -compress
+#- Begin Save netlist data ... (date=06/13 16:47:32, mem=1163.9M)
+Writing Binary DB to dbs/floorpower.enc.dat.tmp/TOP.v.bin ...
+#- End Save netlist data ... (date=06/13 16:47:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=1685.9M, current mem=1685.9M)
+#- Begin Save AAE data ... (date=06/13 16:47:32, mem=1685.9M)
+Saving AAE Data ...
+#- End Save AAE data ... (date=06/13 16:47:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=1685.9M, current mem=1685.9M)
+#- Begin Save clock tree data ... (date=06/13 16:47:32, mem=1685.9M)
+#- End Save clock tree data ... (date=06/13 16:47:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=1685.9M, current mem=1685.9M)
+Saving preference file dbs/floorpower.enc.dat.tmp/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+#- Begin Save floorplan data ... (date=06/13 16:47:32, mem=1686.0M)
+Saving floorplan file ...
+#- End Save floorplan data ... (date=06/13 16:47:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=1686.0M, current mem=1686.0M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+#- Begin Save placement data ... (date=06/13 16:47:32, mem=1686.0M)
+Saving placement file ...
+#- End Save placement data ... (date=06/13 16:47:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=1686.0M, current mem=1686.0M)
+#- Begin Save routing data ... (date=06/13 16:47:32, mem=1686.0M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1686.0M) ***
+#- End Save routing data ... (date=06/13 16:47:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=1686.0M, current mem=1686.0M)
+Saving property file dbs/floorpower.enc.dat.tmp/TOP.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1686.0M) ***
+#- Begin Save power constraints data ... (date=06/13 16:47:32, mem=1686.0M)
+#- End Save power constraints data ... (date=06/13 16:47:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=1686.0M, current mem=1686.0M)
+Saving preRoute extracted patterns in file 'dbs/floorpower.enc.dat.tmp/TOP.techData.gz' ...
+No integration constraint in the design.
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+Generated self-contained design floorpower.enc.dat.tmp
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> fit
+<CMD> saveDesign powerPlan.en
+#- Begin Save netlist data ... (date=06/13 16:50:36, mem=1340.7M)
+Writing Binary DB to powerPlan.en.dat/TOP.v.bin ...
+#- End Save netlist data ... (date=06/13 16:50:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1848.6M, current mem=1848.6M)
+#- Begin Save AAE data ... (date=06/13 16:50:36, mem=1848.6M)
+Saving AAE Data ...
+#- End Save AAE data ... (date=06/13 16:50:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1848.6M, current mem=1848.6M)
+#- Begin Save clock tree data ... (date=06/13 16:50:36, mem=1848.6M)
+#- End Save clock tree data ... (date=06/13 16:50:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1848.6M, current mem=1848.6M)
+Saving preference file powerPlan.en.dat/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+#- Begin Save floorplan data ... (date=06/13 16:50:36, mem=1848.6M)
+Saving floorplan file ...
+#- End Save floorplan data ... (date=06/13 16:50:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1848.6M, current mem=1848.6M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+#- Begin Save placement data ... (date=06/13 16:50:36, mem=1848.6M)
+Saving placement file ...
+#- End Save placement data ... (date=06/13 16:50:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1848.6M, current mem=1848.6M)
+#- Begin Save routing data ... (date=06/13 16:50:36, mem=1848.6M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1848.6M) ***
+#- End Save routing data ... (date=06/13 16:50:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1848.6M, current mem=1848.6M)
+Saving property file powerPlan.en.dat/TOP.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1848.6M) ***
+#- Begin Save power constraints data ... (date=06/13 16:50:36, mem=1848.6M)
+#- End Save power constraints data ... (date=06/13 16:50:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1848.6M, current mem=1848.6M)
+Saving preRoute extracted patterns in file 'powerPlan.en.dat/TOP.techData.gz' ...
+No integration constraint in the design.
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+rcworst125 rcbest0
+Generated self-contained design powerPlan.en.dat
+*** Message Summary: 0 warning(s), 0 error(s)
+

@@ -1,0 +1,1 @@
+technology "gpdk045_pvs" -ruleSet "default" -techLib "/home/cad/VLSI2Lab/Analog/pvtech.lib";

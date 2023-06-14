@@ -1,0 +1,2340 @@
+1686645432
+1 offgrid_check 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+Grid violation
+2 ortho_45_check 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+Orthogonal and 45 degree violation
+3 acute_check 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+Acute angle  violation
+4 soft_check_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_3: ptap missing stamped connections from pdiff_conn
+5 soft_check_6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_6: psubstrate missing stamped connections from ptap
+6 soft_check_9 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_9: ntap missing stamped connections from ndiff_conn
+7 soft_check_12 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_12: nwell_conn missing stamped connections from ntap
+8 soft_check_15 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_15: nb_tap missing stamped connections from nwell_conn
+9 soft_check_18 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_18: Nburied missing stamped connections from nb_tap
+10 NBL.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NBL.W.1: Minimum Nburied Width >= 0.8 um
+11 NBL.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NBL.E.1: Minimum Nburied to Nwell enclosure >= 0.2 um
+12 NBL.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NBL.SP.1: Minimum Nburied to Nburied spacing >= 2.0 um
+13 NBL.SE.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NBL.SE.1: Minimum Nburied to non-related Nwell spacing >= 2.2 um
+14 NBL.SE.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NBL.SE.2: Minimum Nburied to non-related Oxide spacing >= 1.2 um
+15 NBL.X.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NBL.X.1: Nburied must have an Nwell isolation ring
+16 NBL.SE.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NBL.SE.3: Minimum Nwell ring (on Nburied) to P+ Active spacing >= 0.09 um
+17 NBL.SE.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NBL.SE.4: Minimum Nwell ring (on Nburied) to N+ Active spacing >= 0.09 um
+18 NW.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.SP.2: Minimum Nwell spacing to Nwell (different potential) >= 0.6 um
+19 NW.SP.2_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.SP.2: Minimum Nwell spacing to Nwell (different potential) >= 0.6 um
+20 NW.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.W.1: Minimum Nwell Width >= 0.3 um
+21 NW.SE.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.SE.2: Minimum Nwell spacing to P+ Active Area >= 0.16 um
+22 NW.SE.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.SE.1: Minimum Nwell spacing to N+ Active Area >= 0.16 um
+23 NW.SE.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.SE.3: Minimum Nwell spacing to N+ 1.8V Active Area >= 0.24 um
+24 NW.SE.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.SE.4: Minimum Nwell spacing to P+ 1.8V Active Area >= 0.24 um
+25 NW.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.E.1: Minimum Nwell enclosure of N+ Active Area >= 0.06 um
+26 NW.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.E.2: Minimum Nwell enclosure of P+ Active Area >= 0.06 um
+27 NW.E.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.E.3: Minimum Nwell enclosure of N+ 1.8V Active Area >= 0.24 um
+28 NW.E.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.E.4: Minimum Nwell enclosure of P+ 1.8V Active Area >= 0.24 um
+29 NW.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.A.1: Minimum Nwell area >= 0.18 um
+30 NW.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.EA.1: Minimum Nwell enclosed area >= 0.18 um
+31 NWR.SE.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NWR.SE.1: Minimum Resist Protect Oxide to Nwell spacing >= 0.16 um
+32 NWR.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NWR.E.1: Minimum Active Area to Nwell (in resistor) enclosure >= 0.6 um
+33 NWR.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NWR.E.2: Minimum salicided Nwell to Contact enclosure >= 0.16 um
+34 NWR.X.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NWR.X.1: Thick Oxide is NOT allowed over Nwell resistor
+35 NWR.O.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NWR.O.1: Minimum N+ Implant to Resist Protect Oxide overlap >= 0.22 um
+36 OXIDE.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.W.1: Minimum Active Area width >= 0.05 um
+37 OXIDE.W.2.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.W.2.1.1: Minimum 1.1V N-channel gate width >= 0.12 um
+38 OXIDE.W.2.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.W.2.1.2: Minimum 1.8V N-channel gate width >= 0.32 um
+39 OXIDE.W.2.2.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.W.2.2.1: Minimum 1.1V P-channel gate width >= 0.12 um
+40 OXIDE.W.2.2.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.W.2.2.2: Minimum 1.8V P-channel gate width >= 0.32 um
+41 OXIDE.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.W.3: Minimum Active Area bent 45 degress width >= 0.06 um
+42 OXIDE.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.SP.1: Minimum N+ Active Area to N+ Active Area spacing >= 0.08 um
+43 OXIDE.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.SP.2: Minimum P+ Active Area to P+ Active Area spacing >= 0.08 um
+44 OXIDE.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.SP.3: Minimum N+ Active Area to P+ Active Area spacing >= 0.1 um
+45 OXIDE.SE.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.SE.1: Minimum Active Area to Thick Active Area spacing >= 0.18 um
+46 OXIDE.SP.4 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.SP.4: Minimum Active Area bent 45 degress to Active Area spacing >= 0.1 u$$PVS$$
+$$PVS$$m
+47 OXIDE.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.A.1: Minimum area for Active Area >= 0.035 um
+48 OXIDE.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.EA.1: Minimum Active Area enclosed area >= 0.04 um
+49 OXIDE.L.1_OXIDE.L.2 6
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.L.1_OXIDE.L.2: Maximum Oxide length between two contacts (when the Oxide $$PVS$$
+$$PVS$$width is <= 0.18um) must be <= 12.0um and Maximum Oxide length between one conta$$PVS$$
+$$PVS$$ct and the end of the Oxide line (when the Oxide width is <= 0.18um) must be <= $$PVS$$
+$$PVS$$6.0um
+50 OXIDE.X.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDE.X.1: Oxide must be covered by N+ Implant or Nzvt or Salicide Block
+51 OXIDER.SE.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDER.SE.2: Minimum Active Resistor to N+ or P+ Implant spacing >= 0.16 um
+52 OXIDER.SE.2_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDER.SE.2: Minimum Active Resistor to N+ or P+ Implant spacing >= 0.16 um
+53 OXIDER.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDER.E.1: Minimum Salicide Block to Active Resistor enclosure >= 0.12 um
+54 OXIDER.X.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDER.X.1: Oxide resistors must have N+ or P+ Implant
+55 OXIDETHK.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDETHK.W.1: Minimum Thick Active Area width >= 0.35 um
+56 OXIDETHK.SP.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDETHK.SP.1: Minimum Thick Active Area to Thick Active Area spacing >= 0.16 u$$PVS$$
+$$PVS$$m
+57 OXIDETHK.SP.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDETHK.SP.2: Minimum Thick Active Area bent 45 degrees to Thick Active Area s$$PVS$$
+$$PVS$$pacing >= 0.32 um
+58 OXIDETHK.SE.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDETHK.SE.1: Minimum N+ 1.8V Active Area to 1.8V N+ Active Area spacing >= 0.$$PVS$$
+$$PVS$$1 um
+59 OXIDETHK.SE.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDETHK.SE.2: Minimum P+ 1.8V Active Area to 1.8V P+ Active Area spacing >= 0.$$PVS$$
+$$PVS$$1 um
+60 OXIDETHK.SE.3 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDETHK.SE.3: Minimum N+ 1.8V Active Area to 1.8V P+ Active Area spacing >= 0.$$PVS$$
+$$PVS$$12 um
+61 OXIDETHK.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDETHK.E.1: Minimum Thick Active Area to Active Area enclosure >= 0.16 um
+62 OXIDETHK.SE.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDETHK.SE.5: Minimum Thick Active Area to 1.1V Poly gate spacing >= 0.18 um
+63 OXIDETHK.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDETHK.E.2: Minimum Thick Active Area to Thick Poly gate enclosure >= 0.18 um
+64 NHVT.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NHVT.W.1: Minimum Nhvt width >= 0.12
+65 NHVT.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NHVT.SP.1: Minimum Nhvt spacing >= 0.12
+66 NHVT.X.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NHVT.X.2: Nhvt is NOT allowed on Nwell
+67 NHVT.X.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NHVT.X.3: Nhvt is NOT allowed on P+ Oxide
+68 NHVT.X.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NHVT.X.4: Nhvt is NOT allowed on Nzvt
+69 PHVT.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PHVT.W.1: Minimum Phvt width >= 0.12
+70 PHVT.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PHVT.SP.1: Minimum Phvt spacing >= 0.12
+71 PHVT.X.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PHVT.X.2: Phvt is NOT allowed outside Nwell
+72 PHVT.X.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PHVT.X.3: Phvt is NOT allowed on N+ Oxide
+73 PHVT.X.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PHVT.X.4: Phvt is NOT allowed on Nzvt
+74 NLVT.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NLVT.W.1: Minimum Nlvt width >= 0.12
+75 NLVT.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NLVT.SP.1: Minimum Nlvt spacing >= 0.12
+76 NLVT.X.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NLVT.X.2: Nlvt is NOT allowed on Nwell
+77 NLVT.X.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NLVT.X.3: Nlvt is NOT allowed on P+ Oxide
+78 NLVT.X.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NLVT.X.4: Nlvt is NOT allowed on Nzvt
+79 PLVT.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PLVT.W.1: Minimum Plvt width >= 0.12
+80 PLVT.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PLVT.SP.1: Minimum Plvt spacing >= 0.12
+81 PLVT.X.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PLVT.X.2: Plvt is NOT allowed outside Nwell
+82 PLVT.X.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PLVT.X.3: Plvt is NOT allowed on N+ Oxide
+83 PLVT.X.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PLVT.X.4: Plvt is NOT allowed on Nzvt
+84 NZVT.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NZVT.W.1: Minimum Nzvt width >= 0.35 um
+85 NZVT.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NZVT.SP.1: Minimum Nzvt to Nzvt spacing >= 0.3 um
+86 NZVT.O.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NZVT.O.1: Minimum and maximum Nzvt to Active Area overlap == 0.16 um
+87 NZVT.SE.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NZVT.SE.1: Minimum Nzvt to Active spacing >= 0.18 um
+88 NZVT.SE.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NZVT.SE.2: Minimum Nzvt to Nwell spacing >= 0.6 um
+89 NZVT.E.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NZVT.E.1: Minimum N+ Poly gate end cap to Native Active Area enclosure >= 0.1 u$$PVS$$
+$$PVS$$m
+90 NZVT.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NZVT.L.1: Minimum Native device Poly gate length >= 0.30 um
+91 NZVT.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NZVT.W.2: Minimum Native device Poly gate width >= 0.50 um
+92 NZVT.X.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NZVT.X.3: P+ Oxide is NOT allowed in Nzvt
+93 NZVT.X.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NZVT.X.4: Only one Oxide region may be in an Nzvt region
+94 POLY.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.W.1: Minimum 1.1V N-channel gate length >= 0.045 um
+95 POLY.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.W.2: Minimum 1.1V P-channel gate length >= 0.045 um
+96 POLY.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.W.3: Minimum 1.8V N-channel gate length >= 0.15 um
+97 POLY.W.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.W.4: Minimum 1.8V P-channel gate length >= 0.15 um
+98 POLY.W.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.W.5: Minimum Poly interconnect width >= 0.045 um
+99 POLY.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.SP.1: Minimum Poly resistor space >= 0.3 um
+100 POLY.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.SP.2: Minimum Poly gate space  >= 0.06 um
+101 POLY.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.SP.3: Minimum Poly interconnect space >= 0.06 um
+102 POLY.SP.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.SP.4: Minimum gate space in thick active >= 0.20 um
+103 POLY.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.E.1: Minimum N-channel gate extension beyond Active Area >= 0.1 um
+104 POLY.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.E.2: Minimum P-channel gate extension beyond Active Area >= 0.1 um
+105 POLY.SE.1_POLY.SE.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.SE.1_POLY.SE.2: Minimum Poly interconnect to related Active Area space >= $$PVS$$
+$$PVS$$0.05 um
+106 POLY.E.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.E.3: Minimum Active Area (source/drain) to gate enclosure >= 0.1 um
+107 POLY.W.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.W.6: Minimum bent Poly width >= 0.1 um
+108 POLY.SP.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.SP.5: Minimum bent Poly space >= 0.1 um
+109 POLY.X.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.X.1: Poly gate cannot have bends
+110 POLY.X.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.X.2: Poly resistor cannot have bends
+111 POLY.SE.3 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.SE.3: Maximum Poly segment length (width < 0.14) between two contacts >= 1$$PVS$$
+$$PVS$$2.0 um
+112 POLY.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.A.1: Minimum area for Poly interconnect >= 0.02 um
+113 POLY.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLY.EA.1: Minimum enclosed area for Poly interconnect >= 0.05 um
+114 POLYR.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLYR.E.1: Minimum Salicide Block to Poly resistor enclosure >= 0.14 um
+115 POLYR.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLYR.E.2: Minimum N+ Implant to Poly used in resistor enclosure >= 0.07 um
+116 POLYR.E.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLYR.E.3: Minimum P+ Implant to Poly used in resistor enclosure >= 0.07 um
+117 POLYR.SE.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLYR.SE.2: Minimum Poly resistor to other Implant spacing >= 0.15 um
+118 POLYR.SE.2_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLYR.SE.2: Minimum Poly resistor to other Implant spacing >= 0.15 um
+119 POLYR.SE.2_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLYR.SE.2: Minimum Poly resistor to other Implant spacing >= 0.15 um
+120 POLYR.X.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLYR.X.1: Poly resistors must have N+ or P+ Implant
+121 NIMP.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.W.1: Minimum N+ Implant width >= 0.12 um
+122 NIMP.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.SP.1: Minimum N+ Implant space >= 0.12 um
+123 NIMP.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.E.1: Minimum N+ Implant to Active Area enclosure >= 0.07 um
+124 NIMP.O.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.O.1: Minimum N+ Implant to Active Area overlap >= 0.08 um
+125 NIMP.SE.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.SE.1: Minimum N+ Implant to P+ Active Area (inside Nwell) spacing >= 0.08 $$PVS$$
+$$PVS$$um
+126 NIMP.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.E.2: Minimum N+ Implant to Active Area (Nwell tie) enclosure >= 0.01 um
+127 NIMP.E.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.E.3: Minimum N+ Implant to gate side enclosure >= 0.1 um
+128 NIMP.E.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.E.4: Minimum N+ Implant to gate (endcap) enclosure >= 0.1 um
+129 NIMP.SE.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.SE.2: Minimum N+ Implant to P+ Active Area (substrate tie) spacing >= 0.02$$PVS$$
+$$PVS$$ um
+130 NIMP.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.A.1: Minimum area for N+ Implant >= 0.018 um
+131 NIMP.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.EA.1: Minimum N+ Implant ring enclosed area  >= 0.04 um
+132 NIMP.SE.3 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.SE.3: Minimum N+ Implant to P+ gate side (butted Implant) spacing >= 0.1 u$$PVS$$
+$$PVS$$m
+133 NIMP.X.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NIMP.X.1: Nimp is NOT allowed over Pimp
+134 PIMP.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.W.1: Minimum P+ Implant width >= 0.12 um
+135 PIMP.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.SP.1: Minimum P+ Implant space >= 0.12 um
+136 PIMP.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.E.1: Minimum P+ Implant to Active Area enclosure >= 0.07 um
+137 PIMP.O.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.O.1: Minimum P+ Implant to Active Area overlap >= 0.08 um
+138 PIMP.SE.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.SE.1: Minimum P+ Implant to N+ Active Area (outside Nwell) spacing >= 0.08$$PVS$$
+$$PVS$$ um
+139 PIMP.E.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.E.2: Minimum P+ Implant to Active Area (substrate tie) enclosure >= 0.01 u$$PVS$$
+$$PVS$$m
+140 PIMP.E.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.E.3: Minimum P+ Implant to gate side enclosure >= 0.1 um
+141 PIMP.E.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.E.4: Minimum P+ Implant to gate (endcap) enclosure >= 0.1 um
+142 PIMP.SE.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.SE.2: Minimum P+ Implant to N+ Active Area (Nwell tie) spacing >= 0.02 um
+143 PIMP.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.A.1: Minimum area for P+ Implant >= 0.018 um
+144 PIMP.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.EA.1: Minimum P+ Implant ring enclosed area  >= 0.04 um
+145 PIMP.SE.3 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+PIMP.SE.3: Minimum P+ Implant to N+ gate side (butted Implant) spacing >= 0.1 u$$PVS$$
+$$PVS$$m
+146 CONT.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.W.1: Maximum and minimum Contact width/length == 0.06 um
+147 CONT.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.SP.1: Minimum Contact to Contact spacing >= 0.06 um
+148 CONT.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.SP.2: Space to three adjacent Contacts ( < 0.10um apart) >= 0.08 um
+149 CONT.SE.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.SE.1: Minimum Contact on Active Area to gate spacing >= 0.05 um
+150 CONT.SE.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.SE.2: Minimum Contact on 1.8V Active Area to gate spacing >= 0.06 um
+151 CONT.SE.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.SE.3: Minimum gate Contact on Active Area spacing >= 0.06 um
+152 CONT.SE.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.SE.4: Minimum 1.8V gate Contact on Active Area spacing >= 0.07 um
+153 CONT.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.E.1: Minimum Active Area to Contact enclosure >= 0.03 um
+154 CONT.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.E.2: Minimum Poly to Contact enclosure >= 0.02 um
+155 CONT.E.3 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.E.3: Minimum Poly to Contact enclosure on at least two opposite sides >= 0$$PVS$$
+$$PVS$$.03 um
+156 CONT.E.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.E.4: Minimum N+/P+ Implant on Active Area to Contact enclosure >= 0.03 um
+157 CONT.E.4_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.E.4: Minimum N+/P+ Implant on Active Area to Contact enclosure >= 0.03 um
+158 CONT.X.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.X.1: Cont on gate is NOT allowed
+159 CONT.X.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.X.2: Nimp edge is NOT allowed on Oxide Cont
+160 CONT.X.2_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.X.2: Pimp edge is NOT allowed on Oxide Cont
+161 CONT.X.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CONT.X.3: CONT must be covered by Oxide or Poly
+162 SIPROT.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.W.1: Minimum Salicide Block width >= 0.22 um
+163 SIPROT.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.SP.1: Minimum Salicide Block space >= 0.22 um
+164 SIPROT.SE.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.SE.1: Minimum Salicide Block to Contact spacing >= 0.12 um
+165 SIPROT.SE.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.SE.2: Minimum Salicide Block to unrelated Active Area spacing >= 0.12 um
+166 SIPROT.SE.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.SE.3: Minimum Salicide Block to gate spacing >= 0.22 um
+167 SIPROT.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.E.2: Minimum Active Area to Salicide Block enclosure >= 0.12 um
+168 SIPROT.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.E.1: Minimum Salicide Block to Active Area enclosure >= 0.12 um
+169 SIPROT.E.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.E.3: Minimum Salicide Block to Poly (on field) enclosure >= 0.14 um
+170 SIPROT.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.A.1: Minimum Salicide Block area >= 0.6 um
+171 SIPROT.SE.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.SE.4: Minimum Salicide Block to Poly (on field) spacing >= 0.18 um
+172 SIPROT.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+SIPROT.EA.1: Minimum Salicide Block enclosed area >= 0.6 um
+173 METAL2.E.1_METAL2.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.E.1_METAL2.E.2: Metal2 Enc 0.005 & 0.03
+174 METAL3.E.1_METAL3.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.E.1_METAL3.E.2: Metal3 Enc 0.005 & 0.03
+175 METAL4.E.1_METAL4.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.E.1_METAL4.E.2: Metal4 Enc 0.005 & 0.03
+176 METAL5.E.1_METAL5.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.E.1_METAL5.E.2: Metal5 Enc 0.005 & 0.03
+177 METAL6.E.1_METAL6.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.E.1_METAL6.E.2: Metal6 Enc 0.005 & 0.03
+178 METAL7.E.1_METAL7.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.E.1_METAL7.E.2: Metal7 Enc 0.005 & 0.03
+179 METAL8.E.1_METAL8.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.E.1_METAL8.E.2: Metal8 Enc 0.005 & 0.03
+180 METAL9.E.1_METAL9.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.E.1_METAL9.E.2: Metal9 Enc 0.005 & 0.03
+181 METAL10.E.1_METAL10.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL10.E.1_METAL10.E.2: Metal10 Enc 0.005 & 0.03
+182 METAL11.E.1_METAL11.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL11.E.1_METAL11.E.2: Metal11 Enc 0.005 & 0.03
+183 METAL1.E.1_METAL1.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.E.1_METAL1.E.2: Metal1 Enc 0 & 0.03
+184 METAL1.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.W.1: Metal1 width must be >= 0.06 um
+185 METAL2.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.W.1: Metal2 width must be >= 0.08 um
+186 METAL3.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.W.1: Metal3 width must be >= 0.08 um
+187 METAL4.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.W.1: Metal4 width must be >= 0.08 um
+188 METAL5.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.W.1: Metal5 width must be >= 0.08 um
+189 METAL6.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.W.1: Metal6 width must be >= 0.08 um
+190 METAL7.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.W.1: Metal7 width must be >= 0.08 um
+191 METAL8.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.W.1: Metal8 width must be >= 0.08 um
+192 METAL9.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.W.1: Metal9 width must be >= 0.08 um
+193 METAL10.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL10.W.1: Metal10 width must be >= 0.22 um
+194 METAL11.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL11.W.1: Metal11 width must be >= 0.22 um
+195 METAL1.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.W.2: Metal1 width must be <= 6.0 um
+196 METAL2.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.W.2: Metal2 width must be <= 6.0 um
+197 METAL3.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.W.2: Metal3 width must be <= 6.0 um
+198 METAL4.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.W.2: Metal4 width must be <= 6.0 um
+199 METAL5.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.W.2: Metal5 width must be <= 6.0 um
+200 METAL6.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.W.2: Metal6 width must be <= 6.0 um
+201 METAL7.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.W.2: Metal7 width must be <= 6.0 um
+202 METAL8.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.W.2: Metal8 width must be <= 6.0 um
+203 METAL9.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.W.2: Metal9 width must be <= 6.0 um
+204 METAL10.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL10.W.2: Metal10 width must be <= 6.0 um
+205 METAL11.W.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL11.W.2: Metal11 width must be <= 6.0 um
+206 METAL1.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.SP.1.1: Metal1 to Metal1 spacing must be >= 0.06 um
+207 METAL2.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.SP.1.1: Metal2 to Metal2 spacing must be >= 0.07 um
+208 METAL3.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.SP.1.1: Metal3 to Metal3 spacing must be >= 0.07 um
+209 METAL4.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.SP.1.1: Metal4 to Metal4 spacing must be >= 0.07 um
+210 METAL5.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.SP.1.1: Metal5 to Metal5 spacing must be >= 0.07 um
+211 METAL6.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.SP.1.1: Metal6 to Metal6 spacing must be >= 0.07 um
+212 METAL7.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.SP.1.1: Metal7 to Metal7 spacing must be >= 0.07 um
+213 METAL8.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.SP.1.1: Metal8 to Metal8 spacing must be >= 0.07 um
+214 METAL9.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.SP.1.1: Metal9 to Metal9 spacing must be >= 0.07 um
+215 METAL10.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL10.SP.1.1: Metal10 to Metal10 spacing must be >= 0.20 um
+216 METAL11.SP.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL11.SP.1.1: Metal11 to Metal11 spacing must be >= 0.20 um
+217 METAL1.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.SP.1.2: Metal1 to Metal1 spacing must be >= 0.1 um
+218 METAL2.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.SP.1.2: Metal2 to Metal2 spacing must be >= 0.15 um
+219 METAL3.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.SP.1.2: Metal3 to Metal3 spacing must be >= 0.15 um
+220 METAL4.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.SP.1.2: Metal4 to Metal4 spacing must be >= 0.15 um
+221 METAL5.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.SP.1.2: Metal5 to Metal5 spacing must be >= 0.15 um
+222 METAL6.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.SP.1.2: Metal6 to Metal6 spacing must be >= 0.15 um
+223 METAL7.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.SP.1.2: Metal7 to Metal7 spacing must be >= 0.15 um
+224 METAL8.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.SP.1.2: Metal8 to Metal8 spacing must be >= 0.15 um
+225 METAL9.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.SP.1.2: Metal9 to Metal9 spacing must be >= 0.15 um
+226 METAL1.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.SP.1.3: Metal1 to Metal1 spacing must be >= 0.25 um
+227 METAL2.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.SP.1.3: Metal2 to Metal2 spacing must be >= 0.25 um
+228 METAL3.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.SP.1.3: Metal3 to Metal3 spacing must be >= 0.25 um
+229 METAL4.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.SP.1.3: Metal4 to Metal4 spacing must be >= 0.25 um
+230 METAL5.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.SP.1.3: Metal5 to Metal5 spacing must be >= 0.25 um
+231 METAL6.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.SP.1.3: Metal6 to Metal6 spacing must be >= 0.25 um
+232 METAL7.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.SP.1.3: Metal7 to Metal7 spacing must be >= 0.25 um
+233 METAL8.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.SP.1.3: Metal8 to Metal8 spacing must be >= 0.25 um
+234 METAL9.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.SP.1.3: Metal9 to Metal9 spacing must be >= 0.25 um
+235 METAL10.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL10.SP.1.2: Metal10 to Metal10 spacing must be >= 0.35 um
+236 METAL11.SP.1.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL11.SP.1.2: Metal11 to Metal11 spacing must be >= 0.35 um
+237 METAL1.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.SP.1.4: Metal1 to Metal1 spacing must be >= 0.45 um
+238 METAL2.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.SP.1.4: Metal2 to Metal2 spacing must be >= 0.45 um
+239 METAL3.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.SP.1.4: Metal3 to Metal3 spacing must be >= 0.45 um
+240 METAL4.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.SP.1.4: Metal4 to Metal4 spacing must be >= 0.45 um
+241 METAL5.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.SP.1.4: Metal5 to Metal5 spacing must be >= 0.45 um
+242 METAL6.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.SP.1.4: Metal6 to Metal6 spacing must be >= 0.45 um
+243 METAL7.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.SP.1.4: Metal7 to Metal7 spacing must be >= 0.45 um
+244 METAL8.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.SP.1.4: Metal8 to Metal8 spacing must be >= 0.45 um
+245 METAL9.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.SP.1.4: Metal9 to Metal9 spacing must be >= 0.45 um
+246 METAL10.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL10.SP.1.3: Metal10 to Metal10 spacing must be >= 0.45 um
+247 METAL11.SP.1.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL11.SP.1.3: Metal11 to Metal11 spacing must be >= 0.45 um
+248 METAL1.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.SP.1.5: Metal1 to Metal1 spacing must be >= 0.75 um
+249 METAL2.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.SP.1.5: Metal2 to Metal2 spacing must be >= 0.75 um
+250 METAL3.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.SP.1.5: Metal3 to Metal3 spacing must be >= 0.75 um
+251 METAL4.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.SP.1.5: Metal4 to Metal4 spacing must be >= 0.75 um
+252 METAL5.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.SP.1.5: Metal5 to Metal5 spacing must be >= 0.75 um
+253 METAL6.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.SP.1.5: Metal6 to Metal6 spacing must be >= 0.75 um
+254 METAL7.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.SP.1.5: Metal7 to Metal7 spacing must be >= 0.75 um
+255 METAL8.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.SP.1.5: Metal8 to Metal8 spacing must be >= 0.75 um
+256 METAL9.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.SP.1.5: Metal9 to Metal9 spacing must be >= 0.75 um
+257 METAL10.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL10.SP.1.4: Metal10 to Metal10 spacing must be >= 0.75 um
+258 METAL11.SP.1.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL11.SP.1.4: Metal11 to Metal11 spacing must be >= 0.75 um
+259 METAL1.SP.1.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.SP.1.6: Metal1 to Metal1 spacing must be >= 1.25 um
+260 METAL2.SP.1.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.SP.1.6: Metal2 to Metal2 spacing must be >= 1.25 um
+261 METAL3.SP.1.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.SP.1.6: Metal3 to Metal3 spacing must be >= 1.25 um
+262 METAL4.SP.1.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.SP.1.6: Metal4 to Metal4 spacing must be >= 1.25 um
+263 METAL5.SP.1.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.SP.1.6: Metal5 to Metal5 spacing must be >= 1.25 um
+264 METAL6.SP.1.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.SP.1.6: Metal6 to Metal6 spacing must be >= 1.25 um
+265 METAL7.SP.1.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.SP.1.6: Metal7 to Metal7 spacing must be >= 1.25 um
+266 METAL8.SP.1.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.SP.1.6: Metal8 to Metal8 spacing must be >= 1.25 um
+267 METAL9.SP.1.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.SP.1.6: Metal9 to Metal9 spacing must be >= 1.25 um
+268 METAL10.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL10.SP.1.5: Metal10 to Metal10 spacing must be >= 1.25 um
+269 METAL11.SP.1.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL11.SP.1.5: Metal11 to Metal11 spacing must be >= 1.25 um
+270 METAL1.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.L.1: Metal1 non-90 degree segments must be >= 0.1 um
+271 METAL2.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.L.1: Metal2 non-90 degree segments must be >= 0.1 um
+272 METAL3.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.L.1: Metal3 non-90 degree segments must be >= 0.1 um
+273 METAL4.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.L.1: Metal4 non-90 degree segments must be >= 0.1 um
+274 METAL5.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.L.1: Metal5 non-90 degree segments must be >= 0.1 um
+275 METAL6.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.L.1: Metal6 non-90 degree segments must be >= 0.1 um
+276 METAL7.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.L.1: Metal7 non-90 degree segments must be >= 0.1 um
+277 METAL8.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.L.1: Metal8 non-90 degree segments must be >= 0.1 um
+278 METAL9.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.L.1: Metal9 non-90 degree segments must be >= 0.1 um
+279 METAL1.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.SP.2: Metal1 to bent Metal1 spacing must be >= 0.1 um
+280 METAL1.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.W.3: Bent Metal1 (45 degree angle) width must be >= 0.07
+281 METAL2.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.SP.2: Metal2 to bent Metal2 spacing must be >= 0.1 um
+282 METAL2.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.W.3: Bent Metal2 (45 degree angle) width must be >= 0.09
+283 METAL3.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.SP.2: Metal3 to bent Metal3 spacing must be >= 0.1 um
+284 METAL3.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.W.3: Bent Metal3 (45 degree angle) width must be >= 0.09
+285 METAL4.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.SP.2: Metal4 to bent Metal4 spacing must be >= 0.1 um
+286 METAL4.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.W.3: Bent Metal4 (45 degree angle) width must be >= 0.09
+287 METAL5.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.SP.2: Metal5 to bent Metal5 spacing must be >= 0.1 um
+288 METAL5.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.W.3: Bent Metal5 (45 degree angle) width must be >= 0.09
+289 METAL6.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.SP.2: Metal6 to bent Metal6 spacing must be >= 0.1 um
+290 METAL6.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.W.3: Bent Metal6 (45 degree angle) width must be >= 0.09
+291 METAL7.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.SP.2: Metal7 to bent Metal7 spacing must be >= 0.1 um
+292 METAL7.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.W.3: Bent Metal7 (45 degree angle) width must be >= 0.09
+293 METAL8.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.SP.2: Metal8 to bent Metal8 spacing must be >= 0.1 um
+294 METAL8.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.W.3: Bent Metal8 (45 degree angle) width must be >= 0.09
+295 METAL9.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.SP.2: Metal9 to bent Metal9 spacing must be >= 0.1 um
+296 METAL9.W.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.W.3: Bent Metal9 (45 degree angle) width must be >= 0.09
+297 METAL1.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.SP.3: Min End Of Line Spacing >= 0.08
+298 METAL2.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.SP.3: Min End Of Line Spacing >= 0.08
+299 METAL3.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.SP.3: Min End Of Line Spacing >= 0.08
+300 METAL4.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.SP.3: Min End Of Line Spacing >= 0.08
+301 METAL5.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.SP.3: Min End Of Line Spacing >= 0.08
+302 METAL6.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.SP.3: Min End Of Line Spacing >= 0.08
+303 METAL7.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.SP.3: Min End Of Line Spacing >= 0.08
+304 METAL8.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.SP.3: Min End Of Line Spacing >= 0.08
+305 METAL9.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.SP.3: Min End Of Line Spacing >= 0.08
+306 METAL1.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.A.1: Metal1 area must be >= 0.02 um
+307 METAL2.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.A.1: Metal2 area must be >= 0.02 um
+308 METAL3.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.A.1: Metal3 area must be >= 0.02 um
+309 METAL4.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.A.1: Metal4 area must be >= 0.02 um
+310 METAL5.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.A.1: Metal5 area must be >= 0.02 um
+311 METAL6.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.A.1: Metal6 area must be >= 0.02 um
+312 METAL7.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.A.1: Metal7 area must be >= 0.02 um
+313 METAL8.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.A.1: Metal8 area must be >= 0.02 um
+314 METAL9.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.A.1: Metal9 area must be >= 0.02 um
+315 METAL10.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL10.A.1: Metal10 area must be >= 0.10 um
+316 METAL11.A.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL11.A.1: Metal11 area must be >= 0.10 um
+317 METAL1.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL1.EA.1: Metal1 enclosed area must be >= 0.05 um
+318 METAL2.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL2.EA.1: Metal2 enclosed area must be >= 0.05 um
+319 METAL3.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL3.EA.1: Metal3 enclosed area must be >= 0.05 um
+320 METAL4.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL4.EA.1: Metal4 enclosed area must be >= 0.05 um
+321 METAL5.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL5.EA.1: Metal5 enclosed area must be >= 0.05 um
+322 METAL6.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL6.EA.1: Metal6 enclosed area must be >= 0.05 um
+323 METAL7.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL7.EA.1: Metal7 enclosed area must be >= 0.05 um
+324 METAL8.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL8.EA.1: Metal8 enclosed area must be >= 0.05 um
+325 METAL9.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL9.EA.1: Metal9 enclosed area must be >= 0.05 um
+326 METAL10.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL10.EA.1: Metal10 enclosed area must be >= 0.05 um
+327 METAL11.EA.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+METAL11.EA.1: Metal11 enclosed area must be >= 0.05 um
+328 CMET.S.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CMET.S.1: Minimum space of CapMetal >= 1.0 um
+329 CMET.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CMET.W.1: Minimum width of CapMetal >= 1.0 um
+330 CMET.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CMET.E.1: Minimum Metal 1 overlap of Via 10 on CapMetal >= 0.05 um
+331 CMET.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CMET.E.2: Minimum CapMetal overlap of Via 10 >= 0.15 um
+332 CMET.E.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CMET.E.4: Minimum Metal 10 overlap of CapMetal >= 0.2 um
+333 CMET.E.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+CMET.E.3: Minimum CapMetal extension over Metal 11 >= 0.1 um
+334 VIA1.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA1.W.1: Via1 shapes must be 0.07x0.07 rectangles
+335 VIA1.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA1.SP.1: Via1 to Via1 spacing must be >= 0.07 um
+336 VIA2.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA2.W.1: Via2 shapes must be 0.07x0.07 rectangles
+337 VIA2.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA2.SP.1: Via2 to Via2 spacing must be >= 0.07 um
+338 VIA3.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA3.W.1: Via3 shapes must be 0.07x0.07 rectangles
+339 VIA3.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA3.SP.1: Via3 to Via3 spacing must be >= 0.07 um
+340 VIA4.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA4.W.1: Via4 shapes must be 0.07x0.07 rectangles
+341 VIA4.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA4.SP.1: Via4 to Via4 spacing must be >= 0.07 um
+342 VIA5.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA5.W.1: Via5 shapes must be 0.07x0.07 rectangles
+343 VIA5.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA5.SP.1: Via5 to Via5 spacing must be >= 0.07 um
+344 VIA6.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA6.W.1: Via6 shapes must be 0.07x0.07 rectangles
+345 VIA6.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA6.SP.1: Via6 to Via6 spacing must be >= 0.07 um
+346 VIA7.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA7.W.1: Via7 shapes must be 0.07x0.07 rectangles
+347 VIA7.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA7.SP.1: Via7 to Via7 spacing must be >= 0.07 um
+348 VIA8.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA8.W.1: Via8 shapes must be 0.07x0.07 rectangles
+349 VIA8.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA8.SP.1: Via8 to Via8 spacing must be >= 0.07 um
+350 VIA9.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA9.W.1: Via9 shapes must be 0.18x0.18 rectangles
+351 VIA9.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA9.SP.1: Via9 to Via9 spacing must be >= 0.18 um
+352 VIA10.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA10.W.1: Via10 shapes must be 0.18x0.18 rectangles
+353 VIA10.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA10.SP.1: Via10 to Via10 spacing must be >= 0.18 um
+354 VIA1.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA1.E.1: Metal1 to Via1 enclosure must be >= 0.005 um
+355 VIA1.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA1.E.2: Metal1 to Via1 enclosure on opposite sides must be >= 0.03 um
+356 VIA2.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA2.E.1: Metal2 to Via2 enclosure must be >= 0.005 um
+357 VIA2.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA2.E.2: Metal2 to Via2 enclosure on opposite sides must be >= 0.03 um
+358 VIA3.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA3.E.1: Metal3 to Via3 enclosure must be >= 0.005 um
+359 VIA3.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA3.E.2: Metal3 to Via3 enclosure on opposite sides must be >= 0.03 um
+360 VIA4.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA4.E.1: Metal4 to Via4 enclosure must be >= 0.005 um
+361 VIA4.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA4.E.2: Metal4 to Via4 enclosure on opposite sides must be >= 0.03 um
+362 VIA5.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA5.E.1: Metal5 to Via5 enclosure must be >= 0.005 um
+363 VIA5.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA5.E.2: Metal5 to Via5 enclosure on opposite sides must be >= 0.03 um
+364 VIA6.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA6.E.1: Metal6 to Via6 enclosure must be >= 0.005 um
+365 VIA6.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA6.E.2: Metal6 to Via6 enclosure on opposite sides must be >= 0.03 um
+366 VIA7.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA7.E.1: Metal7 to Via7 enclosure must be >= 0.005 um
+367 VIA7.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA7.E.2: Metal7 to Via7 enclosure on opposite sides must be >= 0.03 um
+368 VIA8.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA8.E.1: Metal8 to Via8 enclosure must be >= 0.005 um
+369 VIA8.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA8.E.2: Metal8 to Via8 enclosure on opposite sides must be >= 0.03 um
+370 VIA9.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA9.E.1: Metal9 to Via9 enclosure must be >= 0.015 um
+371 VIA9.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA9.E.2: Metal9 to Via9 enclosure on opposite sides must be >= 0.04 um
+372 VIA10.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA10.E.1: Metal10 to Via10 enclosure must be >= 0.015 um
+373 VIA10.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA10.E.2: Metal10 to Via10 enclosure on opposite sides must be >= 0.04 um
+374 VIA1.E.3 5
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA1.E.3: At least 2 Via1 must be used to join Metal1 and Metal2 when they are $$PVS$$
+$$PVS$$within 3.0um of a metal plate (Metal1/Metal2) when the metal plate size is has w$$PVS$$
+$$PVS$$idth > 1.5 and length > 1.5
+375 VIA2.E.3 5
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA2.E.3: At least 2 Via2 must be used to join Metal2 and Metal3 when they are $$PVS$$
+$$PVS$$within 3.0um of a metal plate (Metal2/Metal3) when the metal plate size is has w$$PVS$$
+$$PVS$$idth > 1.5 and length > 1.5
+376 VIA3.E.3 5
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA3.E.3: At least 2 Via3 must be used to join Metal3 and Metal4 when they are $$PVS$$
+$$PVS$$within 3.0um of a metal plate (Metal3/Metal4) when the metal plate size is has w$$PVS$$
+$$PVS$$idth > 1.5 and length > 1.5
+377 VIA4.E.3 5
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA4.E.3: At least 2 Via4 must be used to join Metal4 and Metal5 when they are $$PVS$$
+$$PVS$$within 3.0um of a metal plate (Metal4/Metal5) when the metal plate size is has w$$PVS$$
+$$PVS$$idth > 1.5 and length > 1.5
+378 VIA5.E.3 5
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA5.E.3: At least 2 Via5 must be used to join Metal5 and Metal6 when they are $$PVS$$
+$$PVS$$within 3.0um of a metal plate (Metal5/Metal6) when the metal plate size is has w$$PVS$$
+$$PVS$$idth > 1.5 and length > 1.5
+379 VIA6.E.3 5
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA6.E.3: At least 2 Via6 must be used to join Metal6 and Metal7 when they are $$PVS$$
+$$PVS$$within 3.0um of a metal plate (Metal6/Metal7) when the metal plate size is has w$$PVS$$
+$$PVS$$idth > 1.5 and length > 1.5
+380 VIA7.E.3 5
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA7.E.3: At least 2 Via7 must be used to join Metal7 and Metal8 when they are $$PVS$$
+$$PVS$$within 3.0um of a metal plate (Metal7/Metal8) when the metal plate size is has w$$PVS$$
+$$PVS$$idth > 1.5 and length > 1.5
+381 VIA8.E.3 5
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA8.E.3: At least 2 Via8 must be used to join Metal8 and Metal9 when they are $$PVS$$
+$$PVS$$within 3.0um of a metal plate (Metal8/Metal9) when the metal plate size is has w$$PVS$$
+$$PVS$$idth > 1.5 and length > 1.5
+382 VIA1.X.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA1.X.1: Metal1 must connect to Metal2 with >= 2 Via1 spaced < 0.30 um or >= 4$$PVS$$
+$$PVS$$ Via1 spaced < 0.60 um
+383 VIA2.X.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA2.X.1: Metal2 must connect to Metal3 with >= 2 Via2 spaced < 0.30 um or >= 4$$PVS$$
+$$PVS$$ Via2 spaced < 0.60 um
+384 VIA3.X.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA3.X.1: Metal3 must connect to Metal4 with >= 2 Via3 spaced < 0.30 um or >= 4$$PVS$$
+$$PVS$$ Via3 spaced < 0.60 um
+385 VIA4.X.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA4.X.1: Metal4 must connect to Metal5 with >= 2 Via4 spaced < 0.30 um or >= 4$$PVS$$
+$$PVS$$ Via4 spaced < 0.60 um
+386 VIA5.X.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA5.X.1: Metal5 must connect to Metal6 with >= 2 Via5 spaced < 0.30 um or >= 4$$PVS$$
+$$PVS$$ Via5 spaced < 0.60 um
+387 VIA6.X.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA6.X.1: Metal6 must connect to Metal7 with >= 2 Via6 spaced < 0.30 um or >= 4$$PVS$$
+$$PVS$$ Via6 spaced < 0.60 um
+388 VIA7.X.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA7.X.1: Metal7 must connect to Metal8 with >= 2 Via7 spaced < 0.30 um or >= 4$$PVS$$
+$$PVS$$ Via7 spaced < 0.60 um
+389 VIA8.X.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA8.X.1: Metal8 must connect to Metal9 with >= 2 Via8 spaced < 0.30 um or >= 4$$PVS$$
+$$PVS$$ Via8 spaced < 0.60 um
+390 VIA1.X.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA1.X.2: Metal1 must connect to Metal2 with >= 4 Via1 spaced < 0.30 um or >= 9$$PVS$$
+$$PVS$$ Via1 spaced < 0.60 um
+391 VIA2.X.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA2.X.2: Metal2 must connect to Metal3 with >= 4 Via2 spaced < 0.30 um or >= 9$$PVS$$
+$$PVS$$ Via2 spaced < 0.60 um
+392 VIA3.X.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA3.X.2: Metal3 must connect to Metal4 with >= 4 Via3 spaced < 0.30 um or >= 9$$PVS$$
+$$PVS$$ Via3 spaced < 0.60 um
+393 VIA4.X.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA4.X.2: Metal4 must connect to Metal5 with >= 4 Via4 spaced < 0.30 um or >= 9$$PVS$$
+$$PVS$$ Via4 spaced < 0.60 um
+394 VIA5.X.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA5.X.2: Metal5 must connect to Metal6 with >= 4 Via5 spaced < 0.30 um or >= 9$$PVS$$
+$$PVS$$ Via5 spaced < 0.60 um
+395 VIA6.X.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA6.X.2: Metal6 must connect to Metal7 with >= 4 Via6 spaced < 0.30 um or >= 9$$PVS$$
+$$PVS$$ Via6 spaced < 0.60 um
+396 VIA7.X.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA7.X.2: Metal7 must connect to Metal8 with >= 4 Via7 spaced < 0.30 um or >= 9$$PVS$$
+$$PVS$$ Via7 spaced < 0.60 um
+397 VIA8.X.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIA8.X.2: Metal8 must connect to Metal9 with >= 4 Via8 spaced < 0.30 um or >= 9$$PVS$$
+$$PVS$$ Via8 spaced < 0.60 um
+398 VIAk.X.3_VIAk.X.4 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIAk.X.3_VIAk.X.4: Metal1 through Metal6 stack must have two or more stacked Vi$$PVS$$
+$$PVS$$as at all levels
+399 VIAk.X.3_VIAk.X.4_2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIAk.X.3_VIAk.X.4: Metal2 through Metal7 stack must have two or more stacked Vi$$PVS$$
+$$PVS$$as at all levels
+400 VIAk.X.3_VIAk.X.4_3 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIAk.X.3_VIAk.X.4: Metal3 through Metal8 stack must have two or more stacked Vi$$PVS$$
+$$PVS$$as at all levels
+401 VIAk.X.3_VIAk.X.4_4 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+VIAk.X.3_VIAk.X.4: Metal4 through Metal9 stack must have two or more stacked Vi$$PVS$$
+$$PVS$$as at all levels
+402 LATCHUP.1 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+LATCHUP.1: The maximum distance from any point in a P+ source/drain Active Area$$PVS$$
+$$PVS$$ to the nearest Nwell pick-up in the same Nwell >= 20.0 um
+403 LATCHUP.2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+LATCHUP.2: The maximum distance from any point in a N+ source/drain Active Area$$PVS$$
+$$PVS$$ to the nearest Psub pick-up in the same Psub >= 20.0 um
+404 ESD.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.1: ESD gate width must be >= 10.0 um and <= 30.0 um
+405 ESD.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.5: NMOS I/O and ESD devices must be inside P+ rings
+406 ESD.6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.6: PMOS I/O and ESD devices must be inside N+ rings
+407 ESD.7 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.7: P+ taps can NOT butt NMOS I/O and ESD devices
+408 ESD.7_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.7: N+ taps can NOT butt PMOS I/O and ESD devices
+409 ESD.11 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.11: Minimum SiProt to Poly gate overlap in NMOS and PMOS drains >= 0.05 um
+410 ESD.12 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.12: Minimum enclosure of SiProt edge to Poly gate edge in NMOS and PMOS dra$$PVS$$
+$$PVS$$ins >= 0.9 um
+411 ESD.13 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.13: Minimum SiProt to Oxide overlap in NMOS and PMOS I/O drains >= 0.9 um
+412 ESD.14 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.14: Exact gate length of NMOS and PMOS in I/O buffers and in Vdd to Vss ESD$$PVS$$
+$$PVS$$ protection == 0.2 um
+413 ESD.15 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.15: Minimu Poly gate to Contact spacing in NMOS and PMOS in I/O buffers and$$PVS$$
+$$PVS$$ in Vdd to Vss ESD protection >= 0.12 um
+414 BONDPAD.E.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal1 to Bondpad enclosure must be >= 2.0 um
+415 BONDPAD.SP.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal1 to Metal1 spacing must be >= 3.0 um
+416 BONDPAD.E.1_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal2 to Bondpad enclosure must be >= 2.0 um
+417 BONDPAD.SP.2_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal2 to Metal2 spacing must be >= 3.0 um
+418 BONDPAD.E.1_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal3 to Bondpad enclosure must be >= 2.0 um
+419 BONDPAD.SP.2_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal3 to Metal3 spacing must be >= 3.0 um
+420 BONDPAD.E.1_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal4 to Bondpad enclosure must be >= 2.0 um
+421 BONDPAD.SP.2_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal4 to Metal4 spacing must be >= 3.0 um
+422 BONDPAD.E.1_5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal5 to Bondpad enclosure must be >= 2.0 um
+423 BONDPAD.SP.2_5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal5 to Metal5 spacing must be >= 3.0 um
+424 BONDPAD.E.1_6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal6 to Bondpad enclosure must be >= 2.0 um
+425 BONDPAD.SP.2_6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal6 to Metal6 spacing must be >= 3.0 um
+426 BONDPAD.E.1_7 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal7 to Bondpad enclosure must be >= 2.0 um
+427 BONDPAD.SP.2_7 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal7 to Metal7 spacing must be >= 3.0 um
+428 BONDPAD.E.1_8 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal8 to Bondpad enclosure must be >= 2.0 um
+429 BONDPAD.SP.2_8 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal8 to Metal8 spacing must be >= 3.0 um
+430 BONDPAD.E.1_9 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal9 to Bondpad enclosure must be >= 2.0 um
+431 BONDPAD.SP.2_9 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal9 to Metal9 spacing must be >= 3.0 um
+432 BONDPAD.E.1_10 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal10 to Bondpad enclosure must be >= 2.0 um
+433 BONDPAD.SP.2_10 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal10 to Metal10 spacing must be >= 3.0 um
+434 BONDPAD.E.1_11 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.1: Metal11 to Bondpad enclosure must be >= 2.0 um
+435 BONDPAD.SP.2_11 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.2: Bondpad Metal11 to Metal11 spacing must be >= 3.0 um
+436 BONDPAD.B.1A 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal1 must have bevelled corners
+437 BONDPAD.B.1A_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal2 must have bevelled corners
+438 BONDPAD.B.1A_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal3 must have bevelled corners
+439 BONDPAD.B.1A_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal4 must have bevelled corners
+440 BONDPAD.B.1A_5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal5 must have bevelled corners
+441 BONDPAD.B.1A_6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal6 must have bevelled corners
+442 BONDPAD.B.1A_7 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal7 must have bevelled corners
+443 BONDPAD.B.1A_8 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal8 must have bevelled corners
+444 BONDPAD.B.1A_9 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal9 must have bevelled corners
+445 BONDPAD.B.1A_10 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal10 must have bevelled corners
+446 BONDPAD.B.1A_11 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1A: Bondpad Metal11 must have bevelled corners
+447 BONDPAD.W.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.1: Bondpad width must be >= 55.0 um
+448 BONDPAD.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.1: Bondpad to Bondpad spacing must be >= 8.0 um
+449 BONDPAD.L.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.L.1: Bondpad length must be >= 68.0 um
+450 BONDPAD.B.1B 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal1 beveled segments must be >= 1.8 um and <= 3.2 um
+451 BONDPAD.B.1B_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal2 beveled segments must be >= 1.8 um and <= 3.2 um
+452 BONDPAD.B.1B_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal3 beveled segments must be >= 1.8 um and <= 3.2 um
+453 BONDPAD.B.1B_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal4 beveled segments must be >= 1.8 um and <= 3.2 um
+454 BONDPAD.B.1B_5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal5 beveled segments must be >= 1.8 um and <= 3.2 um
+455 BONDPAD.B.1B_6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal6 beveled segments must be >= 1.8 um and <= 3.2 um
+456 BONDPAD.B.1B_7 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal7 beveled segments must be >= 1.8 um and <= 3.2 um
+457 BONDPAD.B.1B_8 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal8 beveled segments must be >= 1.8 um and <= 3.2 um
+458 BONDPAD.B.1B_9 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal9 beveled segments must be >= 1.8 um and <= 3.2 um
+459 BONDPAD.B.1B_10 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal10 beveled segments must be >= 1.8 um and <= 3.2 um
+460 BONDPAD.B.1B_11 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.B.1B: Bondpad Metal11 beveled segments must be >= 1.8 um and <= 3.2 um
+461 BONDPAD.SP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.3: Bondpad Via1 to Bondpad Via1 spacing must be >= 0.22 um
+462 BONDPAD.SP.3_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.3: Bondpad Via2 to Bondpad Via2 spacing must be >= 0.22 um
+463 BONDPAD.SP.3_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.3: Bondpad Via3 to Bondpad Via3 spacing must be >= 0.22 um
+464 BONDPAD.SP.3_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.3: Bondpad Via4 to Bondpad Via4 spacing must be >= 0.22 um
+465 BONDPAD.SP.3_5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.3: Bondpad Via5 to Bondpad Via5 spacing must be >= 0.22 um
+466 BONDPAD.SP.3_6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.3: Bondpad Via6 to Bondpad Via6 spacing must be >= 0.22 um
+467 BONDPAD.SP.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.4: Bondpad Via7 to Bondpad Via7 spacing must be >= 0.22 um
+468 BONDPAD.SP.4_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.4: Bondpad Via8 to Bondpad Via8 spacing must be >= 0.22 um
+469 BONDPAD.SP.4_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.4: Bondpad Via9 to Bondpad Via9 spacing must be >= 0.54 um
+470 BONDPAD.SP.4_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.4: Bondpad Via10 to Bondpad Via10 spacing must be >= 0.54 um
+471 BONDPAD.E.2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal1 to Via1 enclosure must be >= 0.05 um
+472 BONDPAD.E.2_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal2 to Via2 enclosure must be >= 0.05 um
+473 BONDPAD.E.2_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal3 to Via3 enclosure must be >= 0.05 um
+474 BONDPAD.E.2_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal4 to Via4 enclosure must be >= 0.05 um
+475 BONDPAD.E.2_5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal5 to Via5 enclosure must be >= 0.05 um
+476 BONDPAD.E.2_6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal6 to Via6 enclosure must be >= 0.05 um
+477 BONDPAD.E.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.3: Bondpad Metal7 to Via7 enclosure must be >= 0.05 um
+478 BONDPAD.E.3_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.3: Bondpad Metal8 to Via8 enclosure must be >= 0.05 um
+479 BONDPAD.E.3_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.3: Bondpad Metal9 to Via9 enclosure must be >= 0.09 um
+480 BONDPAD.E.3_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.3: Bondpad Metal9 to Via10 enclosure must be >= 0.09 um
+481 BONDPAD.E.2_7 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal2 to Via1 enclosure must be >= 0.05 um
+482 BONDPAD.E.2_8 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal3 to Via2 enclosure must be >= 0.05 um
+483 BONDPAD.E.2_9 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal4 to Via3 enclosure must be >= 0.05 um
+484 BONDPAD.E.2_10 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal5 to Via4 enclosure must be >= 0.05 um
+485 BONDPAD.E.2_11 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal6 to Via5 enclosure must be >= 0.05 um
+486 BONDPAD.E.2_12 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.2: Bondpad Metal7 to Via6 enclosure must be >= 0.05 um
+487 BONDPAD.E.3_5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.3: Bondpad Metal8 to Via7 enclosure must be >= 0.05 um
+488 BONDPAD.E.3_6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.3: Bondpad Metal9 to Via8 enclosure must be >= 0.05 um
+489 BONDPAD.E.3_7 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.3: Bondpad Metal10 to Via9 enclosure must be >= 0.09 um
+490 BONDPAD.E.3_8 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.E.3: Bondpad Metal11 to Via10 enclosure must be >= 0.09 um
+491 BONDPAD.SP.5 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.5: Bondpad Metal1 slot to Bondpad Metal1 slot spacing must be == 1.5$$PVS$$
+$$PVS$$0
+492 BONDPAD.SP.5_2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.5: Bondpad Metal2 slot to Bondpad Metal2 slot spacing must be == 1.5$$PVS$$
+$$PVS$$0
+493 BONDPAD.SP.5_3 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.5: Bondpad Metal3 slot to Bondpad Metal3 slot spacing must be == 1.5$$PVS$$
+$$PVS$$0
+494 BONDPAD.SP.5_4 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.5: Bondpad Metal4 slot to Bondpad Metal4 slot spacing must be == 1.5$$PVS$$
+$$PVS$$0
+495 BONDPAD.SP.5_5 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.5: Bondpad Metal5 slot to Bondpad Metal5 slot spacing must be == 1.5$$PVS$$
+$$PVS$$0
+496 BONDPAD.SP.5_6 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.5: Bondpad Metal6 slot to Bondpad Metal6 slot spacing must be == 1.5$$PVS$$
+$$PVS$$0
+497 BONDPAD.SP.5_7 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.5: Bondpad Metal7 slot to Bondpad Metal7 slot spacing must be == 1.5$$PVS$$
+$$PVS$$0
+498 BONDPAD.SP.5_8 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.5: Bondpad Metal8 slot to Bondpad Metal8 slot spacing must be == 1.5$$PVS$$
+$$PVS$$0
+499 BONDPAD.SP.5_9 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.5: Bondpad Metal9 slot to Bondpad Metal9 slot spacing must be == 1.5$$PVS$$
+$$PVS$$0
+500 BONDPAD.SP.5_10 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.5: Bondpad Metal10 slot to Bondpad Metal10 slot spacing must be == 1$$PVS$$
+$$PVS$$.50
+501 BONDPAD.W.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.4: Bondpad Metal1 slot width must be == 1.00
+502 BONDPAD.W.4_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.4: Bondpad Metal2 slot width must be == 1.00
+503 BONDPAD.W.4_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.4: Bondpad Metal3 slot width must be == 1.00
+504 BONDPAD.W.4_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.4: Bondpad Metal4 slot width must be == 1.00
+505 BONDPAD.W.4_5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.4: Bondpad Metal5 slot width must be == 1.00
+506 BONDPAD.W.4_6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.4: Bondpad Metal6 slot width must be == 1.00
+507 BONDPAD.W.4_7 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.4: Bondpad Metal7 slot width must be == 1.00
+508 BONDPAD.W.4_8 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.4: Bondpad Metal8 slot width must be == 1.00
+509 BONDPAD.W.4_9 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.4: Bondpad Metal9 slot width must be == 1.00
+510 BONDPAD.W.4_10 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.4: Bondpad Metal10 slot width must be == 1.00
+511 BONDPAD.W.5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.5: Bondpad Metal1 outside Metal1 ring width must be == 5.00
+512 BONDPAD.W.5_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.5: Bondpad Metal2 outside Metal2 ring width must be == 5.00
+513 BONDPAD.W.5_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.5: Bondpad Metal3 outside Metal3 ring width must be == 5.00
+514 BONDPAD.W.5_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.5: Bondpad Metal4 outside Metal4 ring width must be == 5.00
+515 BONDPAD.W.5_5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.5: Bondpad Metal5 outside Metal5 ring width must be == 5.00
+516 BONDPAD.W.5_6 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.5: Bondpad Metal6 outside Metal6 ring width must be == 5.00
+517 BONDPAD.W.5_7 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.5: Bondpad Metal7 outside Metal7 ring width must be == 5.00
+518 BONDPAD.W.5_8 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.5: Bondpad Metal8 outside Metal8 ring width must be == 5.00
+519 BONDPAD.W.5_9 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.5: Bondpad Metal9 outside Metal9 ring width must be == 5.00
+520 BONDPAD.W.5_10 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.W.5: Bondpad Metal10 outside Metal10 ring width must be == 5.00
+521 BONDPAD.SP.6 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.6: Bondpad Metal1 to Bondpad Metal1 spacing across first slot must b$$PVS$$
+$$PVS$$e >= 1.00 um and <= 3.50 um
+522 BONDPAD.SP.6_2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.6: Bondpad Metal2 to Bondpad Metal2 spacing across first slot must b$$PVS$$
+$$PVS$$e >= 1.00 um and <= 3.50 um
+523 BONDPAD.SP.6_3 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.6: Bondpad Metal3 to Bondpad Metal3 spacing across first slot must b$$PVS$$
+$$PVS$$e >= 1.00 um and <= 3.50 um
+524 BONDPAD.SP.6_4 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.6: Bondpad Metal4 to Bondpad Metal4 spacing across first slot must b$$PVS$$
+$$PVS$$e >= 1.00 um and <= 3.50 um
+525 BONDPAD.SP.6_5 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.6: Bondpad Metal5 to Bondpad Metal5 spacing across first slot must b$$PVS$$
+$$PVS$$e >= 1.00 um and <= 3.50 um
+526 BONDPAD.SP.6_6 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.6: Bondpad Metal6 to Bondpad Metal6 spacing across first slot must b$$PVS$$
+$$PVS$$e >= 1.00 um and <= 3.50 um
+527 BONDPAD.SP.6_7 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.6: Bondpad Metal7 to Bondpad Metal7 spacing across first slot must b$$PVS$$
+$$PVS$$e >= 1.00 um and <= 3.50 um
+528 BONDPAD.SP.6_8 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.6: Bondpad Metal8 to Bondpad Metal8 spacing across first slot must b$$PVS$$
+$$PVS$$e >= 1.00 um and <= 3.50 um
+529 BONDPAD.SP.6_9 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.6: Bondpad Metal9 to Bondpad Metal9 spacing across first slot must b$$PVS$$
+$$PVS$$e >= 1.00 um and <= 3.50 um
+530 BONDPAD.SP.6_10 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.6: Bondpad Metal10 to Bondpad Metal10 spacing across first slot must$$PVS$$
+$$PVS$$ be >= 1.00 um and <= 3.50 um
+531 BONDPAD.SP.7 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.7: Bondpad Via1 array to Bondpad Via1 array spacing must be >= 1.1 u$$PVS$$
+$$PVS$$m
+532 BONDPAD.SP.7_2 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.7: Bondpad Via2 array to Bondpad Via2 array spacing must be >= 1.1 u$$PVS$$
+$$PVS$$m
+533 BONDPAD.SP.7_3 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.7: Bondpad Via3 array to Bondpad Via3 array spacing must be >= 1.1 u$$PVS$$
+$$PVS$$m
+534 BONDPAD.SP.7_4 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.7: Bondpad Via4 array to Bondpad Via4 array spacing must be >= 1.1 u$$PVS$$
+$$PVS$$m
+535 BONDPAD.SP.7_5 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.7: Bondpad Via5 array to Bondpad Via5 array spacing must be >= 1.1 u$$PVS$$
+$$PVS$$m
+536 BONDPAD.SP.7_6 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.7: Bondpad Via6 array to Bondpad Via6 array spacing must be >= 1.1 u$$PVS$$
+$$PVS$$m
+537 BONDPAD.SP.7_7 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.7: Bondpad Via7 array to Bondpad Via7 array spacing must be >= 1.1 u$$PVS$$
+$$PVS$$m
+538 BONDPAD.SP.7_8 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.7: Bondpad Via8 array to Bondpad Via8 array spacing must be >= 1.1 u$$PVS$$
+$$PVS$$m
+539 BONDPAD.SP.7_9 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.7: Bondpad Via9 array to Bondpad Via9 array spacing must be >= 1.1 u$$PVS$$
+$$PVS$$m
+540 BONDPAD.SP.7_10 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+BONDPAD.SP.7: Bondpad Via10 array to Bondpad Via10 array spacing must be >= 1.1$$PVS$$
+$$PVS$$ um
+541 OXIDER.W.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+OXIDER.W.1.1: Minimum Active Resistor width >= 0.1 um
+542 POLYR.W.1.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+POLYR.W.1.1: Minimum Poly resistor width >= 0.1 um
+543 soft_check_1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_1: pdiff_conn causing multiple stamped connections to ptap
+544 soft_check_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_2: ptap has multiple stamped connections from pdiff_conn
+545 soft_check_4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_4: ptap causing multiple stamped connections to psubstrate
+546 soft_check_5 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_5: psubstrate has multiple stamped connections from ptap
+547 soft_check_7 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_7: ndiff_conn causing multiple stamped connections to ntap
+548 soft_check_8 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_8: ntap has multiple stamped connections from ndiff_conn
+549 soft_check_10 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_10: ntap causing multiple stamped connections to nwell_conn
+550 soft_check_11 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_11: nwell_conn has multiple stamped connections from ntap
+551 soft_check_13 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_13: nwell_conn causing multiple stamped connections to nb_tap
+552 soft_check_14 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_14: nb_tap has multiple stamped connections from nwell_conn
+553 soft_check_16 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_16: nb_tap causing multiple stamped connections to Nburied
+554 soft_check_17 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+soft_check_17: Nburied has multiple stamped connections from nb_tap
+555 NW.SP.1 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.SP.1: Minimum Nwell spacing to Nwell (same potential) >= 0.3 um
+556 NW.SP.2_3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+NW.SP.2: Minimum Nwell spacing to Nwell (different potential) >= 0.6 um
+557 LATCHUP.3 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+LATCHUP.3: Minimum I/O or ESD NMOS to PMOS spacing >= 10.0 um
+558 LATCHUP.4 4
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+LATCHUP.4: Minimum I/O or ESD NMOS to PMOS spacing when not blocked by a double$$PVS$$
+$$PVS$$ guardring >= 30.0 um
+559 ESD.4 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.4: N+ source should connect to Pad or Bulk
+560 ESD.4_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.4: P+ source should connect to Pad or Nwell
+561 ESD.8 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.8: N+ drains must be non-salicided (except Contact area)
+562 ESD.8_2 3
+Rule File Pathname: /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul$$PVS$$
+$$PVS$$
+ESD.8: P+ drains must be non-salicided (except Contact area)
