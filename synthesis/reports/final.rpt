@@ -1,0 +1,48 @@
+
+
+Working Directory = /home/Team14/cds_digital/ALU_Project/synthesis
+QoS Summary for TOP
+========================================================================================
+Metric                  generic    map        incremental
+========================================================================================
+Slack (ps):                2,959      2,976      3,121
+  R2R (ps):             no_value   no_value   no_value
+  I2R (ps):                2,959      2,976      3,121
+  R2O (ps):                3,816      3,948      3,948
+  I2O (ps):                3,741      3,736      3,736
+  CG  (ps):             no_value   no_value   no_value
+TNS (ps):                      0          0          0
+  R2R (ps):             no_value   no_value   no_value
+  I2R (ps):                    0          0          0
+  R2O (ps):                    0          0          0
+  I2O (ps):                    0          0          0
+  CG  (ps):             no_value   no_value   no_value
+Failing Paths:                 0          0          0
+Area:                        652        255        255
+Instances:                   195        152        152
+Utilization (%):            0.00       0.00       0.00
+Tot. Net Length (um):   no_value   no_value   no_value
+Avg. Net Length (um):   no_value   no_value   no_value
+Route Overflow H (%):   no_value   no_value   no_value
+Route Overflow V (%):   no_value   no_value   no_value
+Seq MBCI Coverage(%):       0.00       0.00       0.00
+Norm Cong Hotspot Area:
+  Max Cong(4stdcell):   no_value   no_value   no_value
+  Tot Cong(4stdcell):   no_value   no_value   no_value
+========================================================================================
+CPU  Runtime (h:m:s):   00:00:04   00:00:02   00:00:00
+Real Runtime (h:m:s):   00:00:24   00:00:02   00:00:01
+CPU  Elapsed (h:m:s):   00:00:10   00:00:12   00:00:12
+Real Elapsed (h:m:s):   00:00:26   00:00:28   00:00:29
+Memory (MB):              503.95     543.94     543.94
+========================================================================================
+
+========================================================================================
+Flow Settings:
+========================================================================================
+Total Runtime (h:m:s): 00:00:27
+Total Memory (MB):     543.94
+Executable Version:    16.13
+========================================================================================
+
+
