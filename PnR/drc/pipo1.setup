@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"PnR"
+logFile	"/home/Team14/cds_digital/ALU_Project/PnR/drc/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/Team14/cds_digital/ALU_Project/PnR/drc"
+strmFile	"/home/Team14/cds_digital/ALU_Project/PnR/drc/TOP.gds"
+strmVersion	5
+techLib	"gpdk045"
+topCell	"TOP"
+view	"layout"

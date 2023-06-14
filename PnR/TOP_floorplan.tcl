@@ -1,0 +1,18 @@
+##################################################################
+##################################################################
+####### Floorplan and Powerplan
+##################################################################
+set step floorplan
+## Creating the core boundary
+#floorPlan -site CoreSite -r .8 0.5 10 10 10 10
+floorPlan -d {26 26 3 3 3 3}
+## place ports of the design
+loadIoFile TOP_IO.io
+# Adding power Ring
+addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 0.8 bottom 0.8 left 0.8 right 0.8} -spacing {top 0.5 bottom 0.5 left 0.5 right 0.5} -offset {top 0 bottom 0 left 0 right 0} -center 1 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+# Adding power stripe with metal 8 & 9
+addStripe -nets {VDD VSS} -layer Metal9 -direction horizontal -width 0.4 -spacing 0.3 -number_of_sets 5 -start_from bottom -start_offset 0.5 -stop_offset 0.5 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal11 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal11 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 0.4 -spacing 0.3 -number_of_sets 5 -start_from left -start_offset 0.5 -stop_offset 0.5 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal11 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal11 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+# Createating power rails (special_route)
+sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { Metal1(1) Metal8(8) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { Metal1(1) Metal8(8) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { Metal1(1) Metal8(8) }
+saveDesign dbs/floorpower.enc -compress

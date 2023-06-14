@@ -1,0 +1,61 @@
+"Cadence Directory" internal none /home/Team14/cds_digital/ALU_Project/PnR/.cadence/
+"Current Directory" internal none /home/Team14/cds_digital/ALU_Project/PnR
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /home/Team14/cds_digital/ALU_Project/PnR/drc/.preset.autosave
+"Job Signature" internal none IPVS_1686799748_130314
+"PVS Job Mode" internal none drc
+"Run Directory" internal none /home/Team14/cds_digital/ALU_Project/PnR/drc
+"Technology Mapping File" internal none /home/cad/VLSI2Lab/Analog/pvtech.lib
+"Technology Name" internal none "gpdk045_pvs"
+"Technology Rule File" internal none /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul
+"Technology RuleSet" internal none "default"
+"PVS Version" internal none 15.21-s062
+"Binary Name" internal none ipvs
+"PVS Build Date" internal none "Thu Oct 13 14:40:43 PDT 2016"
+"PVS Job Time" internal none 1686799751
+"Control File" input text /home/Team14/cds_digital/ALU_Project/PnR/drc/pvsdrcctl
+"DFII version" internal none 6.1.7.0
+"Do not check rules files before run" internal none ENABLED
+"Input Layout" input none OA: PnR TOP layout
+"Intermediate GDSII File" output none /home/Team14/cds_digital/ALU_Project/PnR/drc/TOP.gds
+"Intermediate GDSII File creation Errors" output none /home/Team14/cds_digital/ALU_Project/PnR/drc/PIPO1.LOG
+"Intermediate OASIS File creation Errors" output none /home/Team14/cds_digital/ALU_Project/PnR/drc/PIPO1.LOG
+"Job Signature" internal none IPVS_1686799748_130314
+"Layout Cell Name" internal none TOP
+"Layout ConvertPin" internal text geometry
+"Layout GDSII" input none /home/Team14/cds_digital/ALU_Project/PnR/drc/TOP.gds
+"Layout HierDepth" internal none 32
+"Layout Library Name" internal none PnR
+"Layout MaxVertices" internal none 2048
+"Layout NoConvertHalfWidthPath" input none nil
+"Layout ReplaceBusBitChar" input none nil
+"Layout Scale" internal none 0.0005
+"Layout TechLib" internal none gpdk045
+"Layout Top Cell" internal none TOP
+"Layout View Name" internal none layout
+"Output Layout Cellmap I" internal text /home/Team14/cds_digital/ALU_Project/PnR/drc/lay_cellMap.txt
+"PIPO Log I" log text  /home/Team14/cds_digital/ALU_Project/PnR/drc/PIPO1.LOG
+"PIPO Output I" internal text  /home/Team14/cds_digital/ALU_Project/PnR/drc/PIPO1.OUT
+"PIPO Setup File I" internal text  /home/Team14/cds_digital/ALU_Project/PnR/drc/pipo1.setup
+"PVS Job Log" log text /home/Team14/cds_digital/ALU_Project/PnR/drc/pvsuidrc.log
+"PVS Job Mode" internal none drc
+"Rule File" input text /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul
+"Run Directory" internal none /home/Team14/cds_digital/ALU_Project/PnR/drc
+"TTE mode" internal none ENABLED
+"PVS Version" internal none 15.21-s062
+"Binary Name" internal none pvsvirt
+"PVS Build Date" internal none "Thu Oct 13 14:40:43 PDT 2016"
+"PVS Job Time" internal none 1686799752
+"ASCII DRC Report Database" output rdb /home/Team14/cds_digital/ALU_Project/PnR/drc/TOP.drc_errors.ascii
+"DRC Summary" output text /home/Team14/cds_digital/ALU_Project/PnR/drc/TOP.sum
+"Layout GDSII" input none /home/Team14/cds_digital/ALU_Project/PnR/drc/TOP.gds
+"PVS Job Mode" internal none drc
+"Report MaxResults" internal none 1000
+"Rule File" input text /home/Team14/cds_digital/ALU_Project/PnR/drc/.technology.rul
+"Run Directory" internal none /home/Team14/cds_digital/ALU_Project/PnR/drc/
+"TTE mode" internal none ENABLED
+"UI Data" internal none ENABLED
+"PVS Version" internal none 15.21-s062
+"Binary Name" internal none pvs
+"PVS Build Date" internal none "Thu Oct 13 14:40:43 PDT 2016"
+"PVS Job Time" internal none 1686799752

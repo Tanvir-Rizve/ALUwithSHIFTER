@@ -1,0 +1,30 @@
+#
+# For old setDontUse flow and infrastructure
+#
+setDontUse BUFX12 false
+setDontUse BUFX16 false
+setDontUse BUFX2 false
+setDontUse BUFX20 false
+setDontUse BUFX3 false
+setDontUse BUFX4 false
+setDontUse BUFX6 false
+setDontUse BUFX8 false
+setDontUse CLKINVX1 false
+setDontUse CLKINVX12 false
+setDontUse CLKINVX16 false
+setDontUse CLKINVX2 false
+setDontUse CLKINVX20 false
+setDontUse CLKINVX3 false
+setDontUse CLKINVX4 false
+setDontUse CLKINVX6 false
+setDontUse CLKINVX8 false
+setDontUse INVX1 false
+setDontUse INVX12 false
+setDontUse INVX16 false
+setDontUse INVX2 false
+setDontUse INVX20 false
+setDontUse INVX3 false
+setDontUse INVX4 false
+setDontUse INVX6 false
+setDontUse INVX8 false
+setDontUse INVXL false
